@@ -5,9 +5,9 @@ googleAnalytics: ''
 disqusShortname: ''
 theme: academia-hugo
 enableGitInfo: yes
-defaultContentLanguage: en
+defaultContentLanguage: es
 hasCJKLanguage: no
-defaultContentLanguageInSubdir: no
+defaultContentLanguageInSubdir: yes
 removePathAccents: yes
 paginate: 7
 enableEmoji: yes
