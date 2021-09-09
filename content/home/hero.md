@@ -3,7 +3,7 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 5  # Order that this section will appear.
 
 title = "Academia"
 
@@ -29,19 +29,21 @@ hero_media = "user-2.jpg"
 
   # Text color (true=light or false=dark).
   text_color_light = false
-
+  
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [btn]
-  url = "/authors/admin"
-  label = "Know more"
+  url = "www.patreon.com/dadosdelaplace"
+  label = "Patreon"
   
 [btn_alt]
-  url = "#contact"
-  label = "Contact me"
-
+  url = "www.cartasdelaplace.substack.com"
+  label = "Cartas de Laplace (newsletter)"
+  
 +++
-## My name is **Michael Vahn** and I'm a **Professor** specializing in **Artificial Intelligence**
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+## Bienvenido/a. Mi nombre es **Javier Álvarez Liébana**, **matemático**, docente e idiota (no necesariamente a partes iguales), y autor del proyecto de divulgación **Dados de Laplace**
+
+Divulgación estadística, matemática, visualización de datos y programación en R: deja el Excel en la puerta.
+

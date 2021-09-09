@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Skills"
-subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
+title = "Destrezas y defectos"
+subtitle = "HABILIDADES Y TARITAS"
 
 # Showcase personal skills or business features.
 # 
@@ -15,27 +15,52 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "chart-line"
+  icon = "square-root-alt"
   icon_pack = "fas"
-  name = "Analysis"
-  parcent = "90%"
+  name = "Matemáticas"
+  parcent = "89%"  
   
 [[feature]]
   icon = "user-secret"
   icon_pack = "fas"
-  name = "Leadership"
-  parcent = "80%"  
+  name = "Outfits"
+  parcent = "17%" 
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "chart-line"
   icon_pack = "fas"
-  name = "Photography"
-  parcent = "70%"
+  name = "Estadística"
+  parcent = "83%"
+  
+[[feature]]
+  icon = "grin-squint"
+  icon_pack = "far"
+  name = "Memes"
+  parcent = "107%"
+  
+[[feature]]
+  icon = "microphone-alt"
+  icon_pack = "fas"
+  name = "Comunicación"
+  parcent = "31%"
   
 [[feature]]
   icon = "searchengin"
   icon_pack = "fab"
-  name = "Research"
-  parcent = "95%"
+  name = "Dataviz"
+  parcent = "73%"
 
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "Programación"
+  parcent = "79%"
+  
+[[feature]]
+  icon = "border-style"
+  icon_pack = "fas"
+  name = "Orden y sentido"
+  parcent = "7%"
+  
+  
 +++

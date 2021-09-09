@@ -4,10 +4,41 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#about"
+  name = "Inicio"
+  url = "#hero"
+  weight = 5
+  
+[[main]]
+  name = "¿Quién soy?"
+  url = "#"
   weight = 10
+  hasChildren = true
 
+[[main]]
+  parent = "¿Quién soy?"
+  name = "Bio"
+  weight = 11
+  url = "#about"
+
+[[main]]
+  parent = "¿Quién soy?"
+  name = "Destrezas y defectos"
+  weight = 12
+  url = "#skills"
+
+[[main]]
+  parent = "¿Quién soy?"
+  name = "CV"
+  weight = 13
+  url = "#experience"
+
+[[main]]
+  parent = "¿Quién soy?"
+  name = "Cosicas para presumir"
+  weight = 14
+  url = "#accomplishments"
+  
+  
 [[main]]
   name = "Posts"
   url = "#posts"
@@ -30,23 +61,57 @@
 
 [[main]]
   name = "Redes"
-  url = "#contact"
-  weight = 60
-
-[[main]]
-  name = "dropdown"
   url = "#"
+  weight = 60
   hasChildren = true
 
 [[main]]
-  parent = "dropdown"
-  name = "dropdown 1"
-  url = "#"
+  parent = "Redes"
+  name = "🚨 Patreon"
+  weight = 61
+  url = "https://patreon.com/dadosdelaplace"
 
 [[main]]
-  parent = "dropdown"
-  name = "dropdown 2"
-  url = "#!"
+  parent = "Redes"
+  name = "🚨 Newsletter"
+  weight = 62
+  url = "https://cartasdelaplace.susbtack.com"
+  
+[[main]]
+  parent = "Redes"
+  name = "Contacto"
+  weight = 63
+  url = "#contact"
+  
+[[main]]
+  parent = "Redes"
+  name = "Twitter"
+  weight = 64
+  url = "https://twitter.com/dadosdelaplace"
+  
+[[main]]
+  parent = "Redes"
+  name = "Instagram"
+  weight = 65
+  url = "https://instagram.com/javieralvarezliebana"
+
+[[main]]
+  parent = "Redes"
+  name = "Discord"
+  weight = 66
+  url = "https://discord.gg/RpXRqTgGdt"
+
+[[main]]
+  parent = "Redes"
+  name = "Telegram"
+  weight = 67
+  url = "https://t.me/dadosdelaplace"
+
+[[main]]
+  parent = "Redes"
+  name = "Github"
+  weight = 68
+  url = "github.com/dadosdelaplace"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
