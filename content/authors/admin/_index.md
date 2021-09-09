@@ -36,7 +36,7 @@ name: Javier Álvarez Liébana
 organizations:
 - name: Facultad de Estadística (UCM)
   url: ""
-role: Ayudante Doctor (doctor en Estadística)
+role: De Carabanchel. Doctor en Estadística
 social:
 - icon: envelope
   icon_pack: fas
