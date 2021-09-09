@@ -1,15 +1,15 @@
-title: Academia
+title: Javier Álvarez Liébana (Dados de Laplace)
 baseURL: https://examplesite.org
-copyright: Copyright &copy; {year}
+copyright: Copyright &copy; {year} - Javier Álvarez Liébana (Dados de Laplace)
 googleAnalytics: ''
 disqusShortname: ''
 theme: academia-hugo
-enableGitInfo: no
+enableGitInfo: yes
 defaultContentLanguage: en
 hasCJKLanguage: no
 defaultContentLanguageInSubdir: no
 removePathAccents: yes
-paginate: 10
+paginate: 7
 enableEmoji: yes
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles:

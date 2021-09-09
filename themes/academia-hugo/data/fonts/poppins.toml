@@ -1,0 +1,15 @@
+# Font style metadata
+name = "poppins"
+
+# Optional Google font URL
+google_fonts = "Poppins:100,200,300,400,500|Lato:400,700|Open+Sans|Roboto+Mono"
+
+# Font families
+heading_font = "Poppins"
+body_font = "Lato"
+nav_font = "Poppins"
+mono_font = "Lato"
+
+# Font size
+font_size = "19"
+font_size_small = "15"
