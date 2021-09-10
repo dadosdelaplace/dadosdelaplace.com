@@ -71,9 +71,10 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Esto de presentarse a sí mismo siempre es un poco raro: **matemático de Carabanchel**, nacido en 1989, que casi llegó a ser **Manolito Gafotas**, y que odia Excel. He pasado por la Universidad Complutense, la **Universidad de Granada (donde hice la tesis)**, Bolonia, Santiago de Compostela, la Universidad Pierre et Marie Curie en París, la Universidad de Oviedo, y ahora he vuelto a mis orígenes.
+
+Actualmente soy Ayudante Doctor en la **Facultad de Estudios Estadísticos de la Universidad Complutense**. Me verás como Javier Álvarez Liébana o **Dados de Laplace**, el proyecto de **divulgación** para reconciliarte con las **matemáticas y la estadística**, y convencerte de la importancia de la **visualización de datos**.
+
+**¿La idea de esta web?** Un espacio donde concentrar la divulgación que realizo en distintas redes sociales, amén de **tutoriales de programación en R**.
 
 
-<!--- ![reviews](../../img/certifacates.jpg) --->
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.

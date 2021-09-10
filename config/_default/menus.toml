@@ -70,17 +70,12 @@
   parent = "Medios y eventos"
   name = "Aparición en medios"
   weight = 52
-  url = "courses/"
+  url = "#medios"
   
 [[main]]
   name = "Artículos científicos"
   url = "#publications"
   weight = 60
-  
-[[main]]
-  name = "Hilos de Twitter"
-  url = "courses/"
-  weight = 65
   
 [[main]]
   name = "Redes"
