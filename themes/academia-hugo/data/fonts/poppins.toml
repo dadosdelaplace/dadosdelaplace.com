@@ -2,7 +2,7 @@
 name = "poppins"
 
 # Optional Google font URL
-google_fonts = "Poppins:100,200,300,400,500|Lato:400,700|Open+Sans|Roboto+Mono"
+google_fonts = "Poppins:100,200,300,400,500|Lato:400,700"
 
 # Font families
 heading_font = "Poppins"
