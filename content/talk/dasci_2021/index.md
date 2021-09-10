@@ -14,7 +14,7 @@ links: null
 location: Granada (virtual)
 math: true
 projects: null
-publishDate: "2021-09-27T18:30:00Z"
+publishDate: "2021-09-01"
 slides: null
 summary: Charla invitada en el ciclo de conferencias Ada Lovelace organizadas por el DaSCI
 tags: []
