@@ -6,6 +6,5 @@ image:
   focal_point: Smart
 summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
 tags:
-- Robotics
 title: Robotics
 ---

@@ -38,79 +38,102 @@
   weight = 14
   url = "#accomplishments"
   
+[[main]]
+  name = "Temas"
+  url = "#tags"
+  weight = 20
   
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "#publications"
   weight = 40
-
+  
+  
 [[main]]
-  name = "Courses"
-  url = "courses/"
+  name = "Medios y eventos"
+  url = "#"
   weight = 50
-
+  hasChildren = true
+  
+[[main]]
+  parent = "Medios y eventos"
+  name = "Eventos"
+  weight = 51
+  url = "#talks"
+  
+[[main]]
+  parent = "Medios y eventos"
+  name = "Aparición en medios"
+  weight = 52
+  url = "courses/"
+  
+[[main]]
+  name = "Artículos científicos"
+  url = "#publications"
+  weight = 60
+  
+[[main]]
+  name = "Hilos de Twitter"
+  url = "courses/"
+  weight = 65
+  
 [[main]]
   name = "Redes"
   url = "#"
-  weight = 60
+  weight = 70
   hasChildren = true
 
 [[main]]
   parent = "Redes"
   name = "🚨 Patreon"
-  weight = 61
+  weight = 71
   url = "https://patreon.com/dadosdelaplace"
 
 [[main]]
   parent = "Redes"
   name = "🚨 Newsletter"
-  weight = 62
+  weight = 72
   url = "https://cartasdelaplace.susbtack.com"
   
 [[main]]
   parent = "Redes"
   name = "Contacto"
-  weight = 63
+  weight = 73
   url = "#contact"
   
 [[main]]
   parent = "Redes"
   name = "Twitter"
-  weight = 64
+  weight = 74
   url = "https://twitter.com/dadosdelaplace"
   
 [[main]]
   parent = "Redes"
   name = "Instagram"
-  weight = 65
+  weight = 75
   url = "https://instagram.com/javieralvarezliebana"
 
 [[main]]
   parent = "Redes"
   name = "Discord"
-  weight = 66
+  weight = 76
   url = "https://discord.gg/RpXRqTgGdt"
 
 [[main]]
   parent = "Redes"
   name = "Telegram"
-  weight = 67
+  weight = 77
   url = "https://t.me/dadosdelaplace"
 
 [[main]]
   parent = "Redes"
   name = "Github"
-  weight = 68
+  weight = 78
   url = "github.com/dadosdelaplace"
 
 # Link to a PDF of your resume/CV from the menu.

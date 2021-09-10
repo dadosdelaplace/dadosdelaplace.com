@@ -9,6 +9,9 @@ btn:
 display_education: true
 education:
   courses:
+  - course: PCR positiva
+    institution: COVID-19
+    year: 2021
   - course: Ayudante Doctor
     institution: ANECA
     year: 2018

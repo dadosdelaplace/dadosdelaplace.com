@@ -43,7 +43,9 @@ hero_media = "banner_portada.webp"
   
 +++
 
-## Bienvenido/a. Mi nombre es **Javier Álvarez Liébana**, **matemático**, docente e idiota (no necesariamente a partes iguales), y autor del proyecto de divulgación **Dados de Laplace**
+## Bienvenido/a.
+
+## Mi nombre es **Javier Álvarez Liébana**, **matemático** (geodesta en realidad), docente e intento de divulgador con el proyecto **Dados de Laplace**.
 
 Divulgación estadística, matemática, visualización de datos y programación en R: deja el Excel en la puerta.
 
