@@ -6,7 +6,7 @@ date: "2021-09-27T18:30:00Z"
 date_end: "2021-09-27T19:30:00Z"
 event: Ciclo de Conferencias Ada Lovelace organizadas por el DaSCI
 event_url: https://dasci.es/es/divulgacion/conferencias/ciclo-de-conferencias-ada-lovelace/
-featured: false
+featured: true
 image:
   caption: ''
   focal_point: Right
