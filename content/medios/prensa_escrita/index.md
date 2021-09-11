@@ -18,6 +18,9 @@ title: Apariciones en prensa escrita 📰
 
 * «Qué es la paradoja de Simpson y cómo puede hacernos malinterpretar los datos de las vacunas contra la COVID-19» (Maldita.es, 08-09-2021): https://maldita.es/malditateexplica/20210908/paradoja-simpson-malinterpretar-datos-vacunas-covid/
 
+* «Ni gatos ni pasteles: el anestesista y el matemático que arrasan en redes porque ayudan a entender la pandemia» (El País, 09-08-2021): https://elpais.com/espana/madrid/2021-08-09/ni-gatos-ni-pasteles-el-anestesista-y-el-matematico-que-arrasan-en-redes-porque-ayudan-a-entender-la-pandemia.html
+
+
 * «El nuevo modelo para aplicar cierres busca anticiparse y evitar la saturación hospitalaria» (El Comercio, 21-01-2021): https://www.elcomercio.es/asturias/nuevo-modelo-aplicar-cierres-anticiparse-evitar-saturacion-hospitalaria-20210121000636-ntvo.html
 
 * «El matemático que secuencia la pandemia en Asturias: 'El que diga cómo será dentro de un mes se está tirando el pisto'» (La Voz de Asturias, 21-01-2021): https://www.lavozdeasturias.es/noticia/asturias/2021/01/20/matematico-secuencia-pandemia-asturias-diga-sera-dentro-mes-tirando-pisto/00031611162707190915383.htm
