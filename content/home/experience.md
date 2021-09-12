@@ -85,7 +85,7 @@ date_format = "Jan 2006"
   
 [[experience]]
   title = "Estancia predoctoral"
-  company = "Université Pierre et Marie cURIE"
+  company = "Université Pierre et Marie Curie"
   company_url = ""
   location = "París (Francia)"
   date_start = "2017-09-01"
