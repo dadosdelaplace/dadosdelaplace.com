@@ -25,7 +25,7 @@ Esta es una de las preguntas más habituales que recibimos muchos/as de los/as q
 
 Y te voy a decepcionar con la respuesta: **depende**.
 
-![](rajoy.)
+![](rajoy.jpg)
 
 El propósito de esta entrada no es hacer una disertación sobre el mundo de la programación (tienes una [breve cronología](#cronologia) al final de la entrada) sino **servir de guía a un usuario muggle para elegir** entre los tres lenguajes más comunes en la ciencia (sin requerir grandes conocimientos de informática): ¿`R`, `Python` o `Matlab`?
 
