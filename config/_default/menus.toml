@@ -3,10 +3,20 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+# [[main]]
+#  name = "Inicio"
+#  url = "#hero"
+#  weight = 5
+ 
 [[main]]
-  name = "Inicio"
-  url = "#hero"
-  weight = 5
+  name = "✉️Newsletter"
+  url = "https://cartasdelaplace.substack.com/"
+  weight = 6
+
+[[main]]
+  name = "Patreon"
+  url = "https://www.patreon.com/dadosdelaplace"
+  weight = 7  
   
 [[main]]
   name = "¿Quién soy?"
@@ -39,20 +49,37 @@
   url = "#accomplishments"
   
 [[main]]
-  name = "Temas"
-  url = "#tags"
-  weight = 20
+  parent = "¿Quién soy?"
+  name = "Artículos científicos"
+  url = "#publications"
+  weight = 15
+  
   
 # [[main]]
-#   name = "Posts"
-#   url = "#posts"
-#   weight = 30
+#   name = "Temas"
+#   url = "#tags"
+#   weight = 20
+
+#[[main]]
+#  name = "Blog de R"
+#  url = "courses/"
+#  weight = 20
+  
+[[main]]
+  name = "Entradas"
+  url = "#posts"
+  weight = 30
+  hasChildren = true
 
 [[main]]
   name = "Cursos"
   url = "#cursos"
   weight = 40
   
+# [[main]]
+#  name = "Material docente"
+#  url = "#posts"
+#  weight = 45
   
 # [[main]]
 #   name = "Cursos(mal)"
@@ -76,12 +103,7 @@
   name = "Aparición en medios"
   weight = 52
   url = "#medios"
-  
-[[main]]
-  name = "Artículos científicos"
-  url = "#publications"
-  weight = 60
-  
+
 [[main]]
   name = "Redes"
   url = "#"

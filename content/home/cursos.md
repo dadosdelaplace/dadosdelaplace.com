@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Cursos"
-subtitle = "Tutoriales para programar en R sin morir en el intento"
+title = "Cursos de R"
+subtitle = "Tutoriales para programar en R o de paquetes concretos"
 
 [content]
   # Page type to display. E.g. project.
@@ -28,6 +28,10 @@ subtitle = "Tutoriales para programar en R sin morir en el intento"
   [[content.filter_button]]
     name = "Conceptos básicos"
     tag = "conceptos básicos R"
+    
+  [[content.filter_button]]
+    name = "Comunidad de aprendizaje"
+    tag = "comunidad"
   
   [[content.filter_button]]
     name = "Manejo de datos"
