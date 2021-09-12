@@ -5,7 +5,8 @@ header:
   caption: ""
   image: ""
 share: false
-title: Política de privacidad
+weight: 130
+title: POLÍTICA DE PRIVACIDAD
 ---
 
 Lee, comparte pero cita lo que uses. 
