@@ -1,10 +1,8 @@
 ---
-date: "2018-06-28T00:00:00+01:00"
-draft: true
+date: "2021-09-12T00:00:00+01:00"
 header:
   caption: ""
   image: ""
-share: false
 weight: 130
 title: POLÍTICA DE PRIVACIDAD
 ---
