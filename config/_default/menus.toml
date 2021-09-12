@@ -53,8 +53,8 @@
   name = "Artículos científicos"
   url = "#publications"
   weight = 15
-  
-  
+
+
 # [[main]]
 #   name = "Temas"
 #   url = "#tags"
@@ -76,10 +76,10 @@
   url = "#cursos"
   weight = 40
   
-# [[main]]
-#  name = "Material docente"
-#  url = "#posts"
-#  weight = 45
+[[main]]
+  name = "Material docente"
+  url = "#docencia"
+  weight = 45
   
 # [[main]]
 #   name = "Cursos(mal)"
