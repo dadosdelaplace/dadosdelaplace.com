@@ -4,7 +4,7 @@ external_link: https://rfortherestofus.com/courses/getting-started/
 image:
   caption: https://rfortherestofus.com/courses/getting-started/
   focal_point: Smart
-summary: "Curso introductorio disponible en la plataforma«R for the rest of us» (gratuito , dificultad 2/7)"
+summary: "Curso introductorio disponible en la plataforma **«R for the rest of us»** (gratuito , dificultad 2/7)"
 tags:
 - conceptos básicos R
 - Programación en R

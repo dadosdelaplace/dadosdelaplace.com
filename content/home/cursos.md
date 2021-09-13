@@ -35,15 +35,15 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
   
   [[content.filter_button]]
     name = "Manejo de datos"
-    tag = "Demo"
+    tag = "data"
   
   [[content.filter_button]]
     name = "Dataviz"
-    tag = "human"
+    tag = "dataviz"
   
   [[content.filter_button]]
     name = "Datascience"
-    tag = "robotics"
+    tag = "datascience"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
