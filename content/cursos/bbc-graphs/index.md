@@ -4,7 +4,7 @@ external_link: https://bbc.github.io/rcookbook/
 image:
   caption: https://bbc.github.io/rcookbook/
   focal_point: Smart
-summary: "Diseño de gráficos con estilo BBC creado por el **BBC data team**"
+summary: "Diseño de gráficos con `{ggplot2}` y estilo de la BBC creado por el **BBC data team**"
 tags:
 - dataviz
 - Programación en R

@@ -34,10 +34,6 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "comunidad"
   
   [[content.filter_button]]
-    name = "Manejo de datos"
-    tag = "data"
-  
-  [[content.filter_button]]
     name = "Dataviz"
     tag = "dataviz"
   
@@ -46,7 +42,7 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "mapas"
     
   [[content.filter_button]]
-    name = "Modelos predictivos"
+    name = "Modelos"
     tag = "modelos"
     
   [[content.filter_button]]
@@ -54,12 +50,16 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "contrastes"
     
   [[content.filter_button]]
-    name = "Datos funcionales"
+    name = "FDA"
     tag = "FDA"
     
   [[content.filter_button]]
     name = "Datos climáticos"
     tag = "clima"
+    
+  [[content.filter_button]]
+    name = "Análisis deportivo"
+    tag = "deportes"
     
   [[content.filter_button]]
     name = "Datascience"
