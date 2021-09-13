@@ -4,7 +4,7 @@ external_link: https://geocompr.robinlovelace.net/index.html
 image:
   caption: https://geocompr.robinlovelace.net/index.html
   focal_point: Smart
-summary: "Tutorial de análisis de datos espaciales de **Robin Lovelace y otros** (dificultad 6/7)"
+summary: "Curso de análisis de datos espaciales de **Robin Lovelace y otros** (dificultad 6/7)"
 tags:
 - mapas
 - dataviz
