@@ -42,6 +42,14 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "dataviz"
   
   [[content.filter_button]]
+    name = "Mapas y datos geográficos"
+    tag = "mapas"
+    
+  [[content.filter_button]]
+    name = "Datos climáticos"
+    tag = "clima"
+    
+  [[content.filter_button]]
     name = "Datascience"
     tag = "datascience"
 
