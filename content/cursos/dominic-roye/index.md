@@ -4,7 +4,7 @@ external_link: https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/
 image:
   caption: https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/
   focal_point: Smart
-summary: "Tutorial sobre mapas bivariables dasimétricos con `{ggplot2}` y `{raster}` de **Dominic Royé** (dificultad 5/7)"
+summary: "Tutorial sobre mapas bivariables dasimétricos con `{ggplot2}` y `{raster}` de **Dominic Royé**"
 tags:
 - dataviz
 - Programación en R
