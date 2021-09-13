@@ -46,6 +46,18 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "mapas"
     
   [[content.filter_button]]
+    name = "Modelos predictivos"
+    tag = "modelos"
+    
+  [[content.filter_button]]
+    name = "Contrastes"
+    tag = "contrastes"
+    
+  [[content.filter_button]]
+    name = "Datos funcionales"
+    tag = "FDA"
+    
+  [[content.filter_button]]
     name = "Datos climáticos"
     tag = "clima"
     
