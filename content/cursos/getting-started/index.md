@@ -1,16 +1,16 @@
 ---
-date: "2021-08-01T00:00:00Z"
-external_link: https://swirlstats.com/students.html
+date: "2021-09-13T00:00:00Z"
+external_link: https://rfortherestofus.com/courses/getting-started/
 image:
-  caption: https://swirlstats.com/
+  caption: https://rfortherestofus.com/courses/getting-started/
   focal_point: Smart
-summary: "Paquete de R para aprenderlo en la propia consola de forma interactiva (gratuito , dificultad 2/7)"
+summary: "Curso introductorio disponible en la plataforma **«R for the rest of us»** (gratuito , dificultad 2/7)"
 tags:
 - conceptos básicos R
 - Programación en R
-title: "{swirl}: learn R, in R"
+title: Getting started with R
 ---
 
 ## Enlace al curso (gratuito)
 
-https://swirlstats.com/students.html
+
