@@ -14,6 +14,7 @@ Material de la asignatura **«Descripción y exploración de datos»** del grado
 
 ### [Haz click para ver el código de las diapositivas](https://github.com/dadosdelaplace/docencia)
 
+
 ```{r echo = FALSE}
-knitr::include_url("diapositivas.html")
+knitr::include_url("./diapositivas.html")
 ```
