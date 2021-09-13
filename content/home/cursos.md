@@ -42,6 +42,10 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "mapas"
     
   [[content.filter_button]]
+    name = "Datos electorales"
+    tag = "elecciones"
+    
+  [[content.filter_button]]
     name = "Modelos"
     tag = "modelos"
     
