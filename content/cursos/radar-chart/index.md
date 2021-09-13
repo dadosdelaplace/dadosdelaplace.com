@@ -4,7 +4,7 @@ external_link: https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-g
 image:
   caption: https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html
   focal_point: Smart
-summary: "Gráficos de Nightingale (de radar) con `{ggplot2}` de **Tobias Stadler**"
+summary: "Gráficos de Nightingale (también conocidos como gráficos de radar) con `{ggplot2}` de **Tobias Stadler**"
 tags:
 - dataviz
 - Programación en R
