@@ -66,7 +66,7 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
     tag = "deportes"
     
   [[content.filter_button]]
-    name = "Datascience"
+    name = "Datascience y Machine Learning"
     tag = "datascience"
 
 [design]

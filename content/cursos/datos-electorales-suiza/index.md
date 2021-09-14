@@ -4,9 +4,8 @@ external_link: https://tlorusso.github.io/talks/swissdd/#1
 image:
   caption: https://tlorusso.github.io/talks/swissdd/#1
   focal_point: Smart
-summary: "Paquete `{swissdd}` para el análisis de datos electorales en Suiza de **Thomas Lo Russo**"
+summary: "Paquete `{swissdd}` para el análisis electoral en Suiza de **Thomas Lo Russo**"
 tags:
-- dataviz
 - elecciones
 - Programación en R
 title: "The Swiss direct democracy R-package"

@@ -9,7 +9,6 @@ tags:
 - FDA
 - contrastes
 - modelos
-- datascience
 - Programación en R
 title: "goffda package: Goodness-of-Fit tests for functional data"
 ---
