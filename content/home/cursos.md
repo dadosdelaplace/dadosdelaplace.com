@@ -68,6 +68,10 @@ subtitle = "Tutoriales para programar en R o de paquetes concretos"
   [[content.filter_button]]
     name = "Datascience y Machine Learning"
     tag = "datascience"
+    
+  [[content.filter_button]]
+    name = "Big Data"
+    tag = "bigdata"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
