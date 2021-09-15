@@ -34,12 +34,12 @@ hero_media = "banner_portada.webp"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [btn]
-  url = "https://patreon.com/dadosdelaplace"
-  label = "Patreon"
+  url = "https://cartasdelaplace.substack.com"
+  label = "✉️Cartas de Laplace (newsletter gratuita)"
   
 [btn_alt]
-  url = "https://cartasdelaplace.substack.com"
-  label = "Cartas de Laplace (newsletter)"
+  url = "https://patreon.com/dadosdelaplace"
+  label = "PATREON"
   
 +++
 
