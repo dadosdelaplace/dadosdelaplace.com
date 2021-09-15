@@ -35,7 +35,7 @@ hero_media = "banner_portada.webp"
 #   Remove a link/note by deleting a cta/note block.
 [btn]
   url = "https://cartasdelaplace.substack.com"
-  label = "✉️Cartas de Laplace (newsletter gratuita)"
+  label = "✉️Cartas de Laplace (newsletter)"
   
 [btn_alt]
   url = "https://patreon.com/dadosdelaplace"
