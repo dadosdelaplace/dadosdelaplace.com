@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Universidad Complutense de Madrid"
   company_url = ""
   location = "Madrid"
-  date_start = "2021-09-20"
+  date_start = "2021-10-01"
   date_end = ""
   description = """
   Investigador y docente en la Facultad de Estudios Estadísticos de la Universidad Complutense de Madrid. Docencia impartida:
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Oviedo"
   date_start = "2020-10-01"
-  date_end = "2021-08-31"
+  date_end = "2021-09-30"
   description = """
   Analista y asesor en el análisis estadístico de los datos derivados de la pandemia de covid-19. Funciones:
   
@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Oviedo"
   date_start = "2020-09-01"
-  date_end = "2021-09-19"
+  date_end = "2021-09-30"
   description = """
   Investigador y docente en el departamento de Estadística, Investigación Operativa y Didáctica de las matemáticas, de la Universidad de Oviedo. Docencia impartida:
   
