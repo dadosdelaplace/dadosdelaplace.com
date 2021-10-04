@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Javier Álvarez Liébana">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="¿Qué lenguaje elegir para el análisis de datos?">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.dadosdelaplace.com/post/r-python/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500|Lato:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.204e11ae6782e09c80157333f2a197af.css">
+
+  
+
+  
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.dadosdelaplace.com/post/r-python/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@dadosdelaplace">
+  <meta property="twitter:creator" content="@dadosdelaplace">
+  
+  <meta property="og:site_name" content="Javier Álvarez Liébana">
+  <meta property="og:url" content="https://www.dadosdelaplace.com/post/r-python/">
+  <meta property="og:title" content="¿Qué lenguaje elegir? R, Python o Matlab: la batalla final | Javier Álvarez Liébana">
+  <meta property="og:description" content="¿Qué lenguaje elegir para el análisis de datos?"><meta property="og:image" content="https://www.dadosdelaplace.com/post/r-python/featured.jpg">
+  <meta property="twitter:image" content="https://www.dadosdelaplace.com/post/r-python/featured.jpg"><meta property="og:locale" content="es-ES">
+  
+  <meta property="article:published_time" content="2021-09-12T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2021-09-12T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>¿Qué lenguaje elegir? R, Python o Matlab: la batalla final | Javier Álvarez Liébana</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Javier Álvarez Liébana</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://cartasdelaplace.substack.com/" target="_blank" rel="noopener"><span>✉️Newsletter</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.patreon.com/dadosdelaplace" target="_blank" rel="noopener"><span>Patreon</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>¿Quién soy?</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#about"><span>Bio</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#skills"><span>Destrezas y defectos</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#experience"><span>CV</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#accomplishments"><span>Cosicas para presumir</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#publications"><span>Artículos científicos</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Entradas</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#docencia"><span>Material docente</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Medios y eventos</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#talks"><span>Eventos</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#medios"><span>Aparición en medios</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Redes</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://patreon.com/dadosdelaplace"><span>🚨 Patreon</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://cartasdelaplace.susbtack.com"><span>🚨 Newsletter</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#contact"><span>Contacto</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://twitter.com/dadosdelaplace"><span>Twitter</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://instagram.com/javieralvarezliebana"><span>Instagram</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://discord.gg/RpXRqTgGdt"><span>Discord</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://t.me/dadosdelaplace"><span>Telegram</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/github.com/dadosdelaplace"><span>Github</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/post/r-python/featured_hu8b08fb65760da1ca68da95c41371cbd5_55790_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
+        <span
+          class="article-header-caption"><a href="https://www.yosoyungamer.cloud/anuncian-el-regreso-de-fight-club-con-fight-club-3/">https://www.yosoyungamer.cloud/anuncian-el-regreso-de-fight-club-con-fight-club-3/</a></span>
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">¿Qué lenguaje elegir? R, Python o Matlab: la batalla final</h1>
+
+      
+      <p class="page-subtitle">¿Qué lenguaje elegir para el análisis de datos?</p>
+      
+
+      
+
+
+
+<meta content="2021-09-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-09-12 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Sun, Sep 12, 2021</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min de lectura
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.dadosdelaplace.com/post/r-python/&amp;text=%c2%bfQu%c3%a9%20lenguaje%20elegir?%20R,%20Python%20o%20Matlab:%20la%20batalla%20final" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.dadosdelaplace.com/post/r-python/&amp;t=%c2%bfQu%c3%a9%20lenguaje%20elegir?%20R,%20Python%20o%20Matlab:%20la%20batalla%20final" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=%c2%bfQu%c3%a9%20lenguaje%20elegir?%20R,%20Python%20o%20Matlab:%20la%20batalla%20final&amp;body=https://www.dadosdelaplace.com/post/r-python/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.dadosdelaplace.com/post/r-python/&amp;title=%c2%bfQu%c3%a9%20lenguaje%20elegir?%20R,%20Python%20o%20Matlab:%20la%20batalla%20final" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%c2%bfQu%c3%a9%20lenguaje%20elegir?%20R,%20Python%20o%20Matlab:%20la%20batalla%20final%20https://www.dadosdelaplace.com/post/r-python/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.dadosdelaplace.com/post/r-python/&amp;title=%c2%bfQu%c3%a9%20lenguaje%20elegir?%20R,%20Python%20o%20Matlab:%20la%20batalla%20final" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <blockquote>
+<p><strong>Quiero empezar con el análisis de datos: ¿qué lenguaje debo elegir?</strong></p>
+</blockquote>
+<p>Esta es una de las preguntas más habituales que recibimos muchos/as de los/as que nos dedicamos al análisis de datos y la divulgación estadística en redes: <strong>de todo el vasto universo de lenguajes de programación, ¿cuál elegir?</strong></p>
+<p>Y te voy a decepcionar con la respuesta: <strong>depende</strong>.</p>
+<p><img src="rajoy.jpg" alt=""></p>
+<p>El propósito de esta entrada no es hacer una disertación sobre el mundo de la programación (tienes una <a href="#cronologia">breve cronología</a> al final de la entrada) sino <strong>servir de guía a un usuario muggle para elegir</strong> entre los tres lenguajes más comunes en la ciencia (sin requerir grandes conocimientos de informática): ¿<code>R</code>, <code>Python</code> o <code>Matlab</code>?</p>
+<ul>
+<li>
+<p>¿Necesito una <strong>ejecución rápida</strong> (tareas diarias iguales, por ejemplo)?</p>
+</li>
+<li>
+<p>¿Estoy dispuesto a sacrificar tiempo en ejecución a cambio de una <strong>curva de aprendizaje más rápida</strong> y un <strong>tiempo en la programación</strong> más corto?</p>
+</li>
+</ul>
+<p>Aunque los tres lenguajes son diferentes entre sí, he optado por ellos ya que comparten una virtud: son <strong>lenguajes de alto nivel</strong>. Como regla general, los <strong>lenguajes de alto nivel</strong> suelen ser más lentos en ejecución pero mucho <strong>más cómodos y sencillos</strong> para un usuario medio, mientras que <strong>lenguajes de bajo nivel</strong> (<code>C</code> o <code>FORTRAN</code>) son mucho más rápidos en ejecución, pero <strong>requieren de un mayor conocimiento</strong> informático. Y aunque algunos científicos con conocimientos en programación siguen optando por los lenguajes de bajo nivel, la <strong>mayoría de la comunidad científica</strong> optan en sus análisis por lenguajes que puedan aprender rápido, al no requerir en general de una gran eficiencia en tiempos de ejecución (sacrificando algunos segundos o minutos en la ejecución, a cambio de poder ser más o menos autosuficientes en su programación).</p>
+<p> </p>
+<h1 id="consejo-descarta-matlab-apuesta-por-el-software-libre">Consejo: descarta Matlab, apuesta por el software libre</h1>
+<p>Debido a su potencia, seguramente si eres un <strong>usuario medio</strong> que necesita cosas sencillas para el análisis de datos, <strong>las tres herramientas</strong> te puedan cubrir la mayoría de tus necesidades. Sin embargo, hay un aspecto que diferencia <code>Matlab</code> (<code>M</code>) de los otros dos lenguajes: <strong><code>Matlab</code> es de pago</strong>. Como sucede con lenguajes/herramientas como <code>SPSS</code> (IBM) o <code>SAS</code>, <code>Matlab</code>  requiere de una <strong>licencia de pago</strong>. Esta desventaja a priori puede que no nos parezca relevante a la hora de decidirnos por un lenguaje de programación, ya que probablemente lo hayas podido usar de forma «gratuita», bien porque hayas encontrado una forma de <strong>piratearlo</strong> (en el caso de <code>Matlab</code>, bastante sencillo), bien porque tengas acceso a una licencia académica o corporativa, siendo tu universidad o empresa la que tenga un <strong>acuerdo de licencias</strong>.</p>
+<p><strong>¿Es entonces una desventaja real?</strong> Sí, pero no por el precio que tengas que pagar por su uso, sino por lo que ello implica: su <strong>código no es de libre uso</strong>. <code>Matlab</code>, como todos los programas de software de pago, son de código cerrado, lo que <strong>impide acceder al totalidad del código</strong> de las funciones internas del lenguaje, lo cual a su vez <strong>impide la colaboración entre usuarios</strong>: <code>Matlab</code> <strong>no permite la instalación directa de código validado por la comunidad</strong> de usuarios (puedes copiar y pegar código que encuentres en la red, pero sin tener una garantía de que realiza lo que promete, ni de compatibilidad, ni de integración, ni de documentación).</p>
+<p>Otra aspecto diferencial para descartar <code>Matlab</code> es que, como probablemente hayas experimentado si has trabajado con dicha herramienta, tiene un alto consumo de recursos. No solo <strong>consume una monstruosa cantidad de espacio en el disco duro</strong> tras sus instalación (mientras que instalar <code>R</code> puede ocupar 100MB, una instalación de <code>Matlab</code> puede superar los 5GB), sino que además <strong>consume una gran cantidad de memoria RAM</strong> en su ejecución: es una herramienta tan potente pero tan rígida en su configuración que «por si lo necesitases» implementa toda una compleja infraestructura.</p>
+<p>Y es que precisamente una de las desventajas (en mi opinión) de <code>Matlab</code>, aunque pueda parecer contradictorio, es su propósito general, ya que <strong>pretende abarcar tantos campos</strong> que, salvo necesidades muy especiales donde no hay competidor (modelización y simulación de ecuaciones diferenciales y cálculo matricial, entre ellas, no es casualidad que se llame
+<strong>MAT</strong>rix <strong>LAB</strong>oratory), seguramente <strong>puedas encontrar otro lenguaje o software libre cuyas funcionalidades sean más acordes</strong> y específicas a tu necesidad, como puede ser el caso de <code>R</code> o <code>Python</code> respecto al análisis de datos.</p>
+<p> </p>
+<h1 id="r-o-python">¿<code>R</code> o <code>Python</code>?</h1>
+<p>Se acabó el <em>hype</em>, vamos a pinchar la burbuja: <strong>ambos son igualmente válidos para el análisis de datos</strong>.</p>
+<p>En mi caso particular, durante la carrera aprendí lenguajes como <code>C++</code>, <code>FORTRAN</code>, <code>PASCAL</code> o <code>Java</code>, mi TFM lo realicé en <code>Python</code> y mi tesis doctoral la hice entera en <code>Matlab</code> (limitaciones ajenas), por lo que no fue hasta finalizar la tesis (julio de 2018) cuando empecé a programar más intensamente en <code>R</code>, así que se podría decir que es el lenguaje que menos horas he dedicado (pero en el que más he producido, curiosamente). Y es que mientras que <strong><code>Python</code> es un lenguaje de un propósito mucho más general</strong>, <strong><code>R</code> fue diseñado por y para matemáticos y estadísticos</strong>, y se nota desde la propia arquitectura del lenguaje. Obviamente este objetivo tan específico tiene una desventaja: por regla general, <strong><code>Python</code> es más eficiente</strong> (con tiempos de ejecución más cortos), y está dotado de una <strong>mayor flexibilidad</strong> para el desarrollo web, la Inteligencia Artificial, el preprocesamiento de imágenes o la integración con todo tipo de apps o programas (incluso con herramientas de edición de audio y vídeo de la saga Adobe).</p>
+<p>Ambos tienen <strong>tres ventajas</strong> que los hacen muy difícil de superar en el ámbito del análisis de datos:</p>
+<ul>
+<li>
+<p><strong>Software libre</strong>, con una <strong>inmensa comunidad de usuarios</strong> produciendo y validando código: seguramente lo que necesites ya haya sido implementado (en su totalidad o de forma parcial) por alguien antes y solo necesites adaptarlo.</p>
+</li>
+<li>
+<p><strong>Fácil integración de otros lenguajes</strong>, como puede ser <code>FORTRAN</code> o <code>C++</code>, para tareas más tediosas y costosas (como la programación en paralelo).</p>
+</li>
+<li>
+<p><strong>Modulares</strong>: su instalación básica ocupa muy poco espacio, y mediante la instalación de paquetes (<code>R</code>) o librerías (<code>Python</code>), permiten su configuración totalmente adaptada a nuestras necesidades.</p>
+</li>
+</ul>
+<p>Dada su flexibilidad y potencia, ambos seguramente cubran tus necesidades en cuanto a análisis de datos se refiere, por lo que si ya has empezado con alguno de ellos, mi <strong>consejo es que sigas con el lenguaje que te resulte más cómodo, y del que tengas ya cierta base</strong>. Sin embargo, si <strong>estás partiendo de cero</strong>, mi recomendación (para el análisis de datos) es sin duda <code>R</code> ya que cuenta con tres ventajas frente a <code>Python</code>:</p>
+<ul>
+<li>En lo referente al análisis de datos y la estadística, <strong><code>R</code> cuenta una mayor comunidad de usuarios</strong>, por lo que tendrás a tu disposición una mayor variedad de paquetes y de soporte en la web.</li>
+<li>Fue diseñado especialmente para el análisis de datos, por lo que se requieren <strong>muy pocas líneas de código</strong> para la implementación de flujos de trabajo en la carga de datos, preprocesamiento, modelos predictivos y validación.</li>
+<li>La <strong>gran fortaleza de <code>R</code></strong> es contar con <strong>herramientas muy potentes para la visualización de datos</strong> (como el paquete <code>{ggplot2}</code>) y la presentación de resultados (como los paquetes <code>{shiny}</code> para crear apps interactivas con el usuario, <code>{bookdown}</code> para crear libros con código y latex integrado, o <code>{blogdown}</code> para crear webs como en la que estás).</li>
+</ul>
+<p>Es por todo ello por lo que <strong>mi recomendación si estás empezando en el análisis estadístico</strong>, o el uso que le vas a dar está orientado a la <strong>producción de informes</strong> o análisis estadísticos para revistas científicas, sea apostar por <code>R</code> pero sin volverte loco/a: si ya tienes conocimientos de <code>Python</code> y/o la mayor parte de tus colegas de profesión lo están usando, mi consejo es que sigas apostando por él.</p>
+<ul>
+<li>Tutorial para muggles: <a href="https://aprendiendo-r-intro.netlify.app/">primeros pasos en <code>R</code></a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Lenguaje</th>
+<th>Ventajas</th>
+<th>Desventajas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Matlab</td>
+<td>gran cantidad de herramientas en las toolbox - cálculo matricial - modelado 3D</td>
+<td>software de pago - alto consumo de memoria - lento - propósito demasiado general</td>
+</tr>
+<tr>
+<td>R</td>
+<td>software libre - pensado por y para la estadística - gran cantidad de usuarios y paquetes disponibles - visualización y análisis de datos - creación de informes con código integrado</td>
+<td>mayor dificultad para el desarrollo web - mal programado puede ser lento</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>rápido - software libre - facilidad en lectura de archivos - integración sencilla con otros lenguajes y aplicaciones - Inteligencia Artificial - preprocesamiento de imágenes</td>
+<td>Problemas en el manejo de grandes bases de datos - no orientado especificamente al análisis y visualización estadística</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<h2 id="cronologia">Breve y cutre cronología de los lenguajes de programación</h2>
+<ul>
+<li>
+<p><strong>1843</strong>. Aunque el mérito cinematográfico se lo llevó Alan Turing, fue una mujer, <strong>Ada Lovelace</strong>, la primera en crear lo que hoy llamaríamos un algoritmo computacional mecánico: una secuencia finita de pasos realizados por una maquina (en este caso, un telar).</p>
+</li>
+<li>
+<p><strong>1936</strong>. Apoyándose en las ideas de Lovelace, <strong>Turing</strong> diseñó una máquina capaz de almacenar datos en una cinta y procesas los símbolos guardados en ella siguiendo una colección de reglas lógicas.</p>
+</li>
+<li>
+<p><strong>1944</strong>. Coincidiendo con el final de la Segunda Guerra Mundial, empezaron a aparecer las primeras computadoras alimentadas con electricidad, siendo Konrad Zuse el desarrollador del primer lenguaje de programación moderno, <code>Plankalkül</code>, proporcionando procedimientos para guardar pedazos de código y así poder realizar de forma sistemática operaciones rutinarias.</p>
+</li>
+<li>
+<p><strong>1949</strong>. Nace el <strong>lenguaje ensamblador</strong>, el lenguaje de programación de más bajo nivel, el conjunto de reglas más sencillo para dar instrucciones a componentes electrónicos.</p>
+</li>
+<li>
+<p><strong>1957</strong>. Nace <code>FORTRAN</code>, probablemente el lenguaje de programación más importante de la historia de la informática y el más antiguo que sigue aún en uso. Aunque sigue siendo un lenguaje de bajo nivel (tiempos elevados en su programación, tiempos muy reducidos en su ejecución y compilación), <code>FORTRAN</code> permite la realización de cálculos matemáticos y estadísticos de gran complejidad.</p>
+</li>
+<li>
+<p><strong>1964-1970</strong>. Nacen <code>BASIC</code> y <code>PASCAL</code>, los primeros lenguajes de programación orientados a estudiantes de ciencias que no tuvieran grandes conocimientos de informática y fáciles de aprender, razones por las que fueron los lenguajes por los que apostaron en un primer momento Microsoft y Apple, respectivamente.</p>
+</li>
+<li>
+<p><strong>1972</strong>. IBM lanzó <code>SQL</code> (otrora SEQUEL), el lenguaje de programación más importante el manejo de bases de datos y la base de la mayoría de sistemas de gestión de datos, permitiendo una consulta muy eficiente de ficheros.</p>
+</li>
+<li>
+<p><strong>1972-1983</strong>. Los desarrolladores de los laboratorios de la Bell Telephone lanzan <code>C</code>, junto con <code>FORTRAN</code> el lenguaje de programación más importante y usado, en el que posteriormente se han basado lenguajes como <code>C#</code>, <code>Java</code>, <code>JavaScript</code>, <code>Perl</code>, <code>PHP</code> o <code>Python</code>. En 1983 Bjarne Stroustrup extendió dicho lenguaje derivando en <code>C++</code>, el lenguaje motor de herramientas como Office, Adobe o algunos videojuegos.</p>
+</li>
+<li>
+<p><strong>1976</strong>. Los laboratorios Bell sacaron la primera versión del lenguaje conocido <code>S</code>, un primer intento de lenguaje de programación enfocado al análisis estadístico y el cálculo matemático.</p>
+</li>
+<li>
+<p><strong>1991</strong>. Inspirados en los Monty Python, Guido Van Rossum desarrolló <code>Python</code>, un lenguaje libre, de alto nivel, modaular y con un propósito general, siendo el lenguaje por el que han apostado empresas como Spotify o Netflix.</p>
+</li>
+<li>
+<p><strong>1993</strong>. Expertos en estadística computacional (el conocido como R Development Core Team) decidieron apostar por extender <code>S</code> a <code>R</code>, para obtener un lenguaje de programación más estable y de licencia gratuita.</p>
+</li>
+<li>
+<p><strong>1995</strong>. James Gosling crea <code>Java</code>, el lenguaje orientado a objetos más importante y en el que se basan otros lenguajes posteriores, con el objetivo de desarrollar herramientas y softwares interactivos con el usuario.</p>
+</li>
+</ul>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/programacion-en-r/">Programación en R</a>
+  
+  <a class="badge badge-light" href="/tags/conceptos-basicos-r/">conceptos básicos R</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://www.dadosdelaplace.com">Javier Álvarez Liébana</a></h5>
+      <h6 class="card-subtitle">De Carabanchel. Doctor en Estadística</h6>
+      <p class="card-text" itemprop="description">Licenciado en Matemáticas, Doctor en Estadística, Ayudante Doctor, investigador, docente e intentando esto de la divulgación. Especializado en estadística, programación en R y visualización de datos.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://cartasdelaplace.substack.com" target="_blank" rel="noopener">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/dadosdelaplace" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://instagram.com/javieralvarezliebana" target="_blank" rel="noopener">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://patreon.com/dadosdelaplace" target="_blank" rel="noopener">
+              <i class="fab fa-patreon"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://t.me/dadosdelaplace" target="_blank" rel="noopener">
+              <i class="fab fa-telegram"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;hl=es" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/dadosdelaplace" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://discord.gg/RpXRqTgGdt" target="_blank" rel="noopener">
+              <i class="fab fa-discord"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Relacionado</h3>
+        <ul>
+          
+          <li><a href="/cursos/r-data-science-wickham/">R for Data Science</a></li>
+          
+          <li><a href="/docencia/intro-r/">Primeros pasos en R</a></li>
+          
+          <li><a href="/cursos/swirl/">{swirl}: learn R, in R</a></li>
+          
+          <li><a href="/cursos/bbc-graphs/">BBC Visual and Data Journalism cookbook for R graphics</a></li>
+          
+          <li><a href="/docencia/descriptiva-2021-2022/">Descriptiva y exploración de datos</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+    <div class="article-widget">
+      
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Siguiente</div>
+    <a href="/post/cartas-laplace-1/" rel="next">Carta #1: perderlo todo, volver a empezar</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Anterior</div>
+    <a href="/post/excel-no/" rel="prev">¿Por qué Excel no es tu amigo? ¿Por qué aprender R?</a>
+  </div>
+  
+</div>
+
+    </div>
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academia.min.1864145399ae9e7997bb63a7a7dd152c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="powered-by">
+          <a href="/privacy/">POLÍTICA DE PRIVACIDAD</a>
+        </p>
+        
+        <p class="mb-0">
+          Copyright © 2021 - Javier Álvarez Liébana (Dados de Laplace) &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/javieralvarezliebana" target="_blank" rel="noopener" title="Sígueme en Twitter"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/dadosdelaplace" target="_blank" rel="noopener" title="Sígueme en Instagram"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://patreon.com/dadosdelaplace" target="_blank" rel="noopener" title="Contribuye al proyecto en Patreon"><i class="fab fa-patreon" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://cartasdelaplace.substack.com" target="_blank" rel="noopener" title="Newsletter"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://t.me/dadosdelaplace" target="_blank" rel="noopener" title="Canal de Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/dadosdelaplace" target="_blank" rel="noopener" title="Repositorio de Github"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/RpXRqTgGdt" target="_blank" rel="noopener" title="Comunidad de Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

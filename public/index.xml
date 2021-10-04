@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/</link>
+    <description>Recent content on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Mon, 27 Sep 2021 18:30:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>POLÍTICA DE PRIVACIDAD</title>
+      <link>https://www.dadosdelaplace.com/privacy/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/privacy/</guid>
+      <description>&lt;p&gt;Lee, comparte pero cita lo que uses.&lt;/p&gt;
+&lt;p&gt;Todo el trabajo aquí publicado está bajo &lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0&#34;&gt;&lt;strong&gt;licencia pública general GNU&lt;/strong&gt;&lt;/a&gt;, una licencia libre de copyleft que garantiza a los usuarios finales (personas, organizaciones, compañías) la &lt;strong&gt;libertad de usar, estudiar, compartir (copiar) y modificar el software, citando adecuadamente al autor del mismo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Dicha web ha sido inspirada por las páginas web elaboradas por &lt;a href=&#34;https://www.cedricscherer.com/&#34;&gt;Cédric Scherer&lt;/a&gt; y &lt;a href=&#34;https://dominicroye.github.io/&#34;&gt;Dominic Royé&lt;/a&gt;, haciendo uso de &lt;code&gt;Rmarkdown&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eventos, charlas y congresos</title>
+      <link>https://www.dadosdelaplace.com/talk/</link>
+      <pubDate>Mon, 27 Sep 2021 18:30:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cursos</title>
+      <link>https://www.dadosdelaplace.com/cursos/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://www.dadosdelaplace.com/post/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Material docente</title>
+      <link>https://www.dadosdelaplace.com/docencia/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/docencia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publicaciones científicas</title>
+      <link>https://www.dadosdelaplace.com/publication/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Courses</title>
+      <link>https://www.dadosdelaplace.com/courses/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apariciones en medios</title>
+      <link>https://www.dadosdelaplace.com/medios/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/medios/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

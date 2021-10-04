@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>material docente on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/material-docente/</link>
+    <description>Recent content in material docente on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/material-docente/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Descriptiva y exploración de datos</title>
+      <link>https://www.dadosdelaplace.com/docencia/descriptiva-2021-2022/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/docencia/descriptiva-2021-2022/</guid>
+      <description>&lt;p&gt;Material de la asignatura &lt;strong&gt;«Descripción y exploración de datos»&lt;/strong&gt; del grado de Estadística Aplicada de la Universidad Complutense (curso: 2021-2022)&lt;/p&gt;
+&lt;h3 id=&#34;haz-click-para-ver-diapositivas-en-pantalla-completahttpsdescriptiva-estad-apli-ucm-2021-2022netlifyapp&#34;&gt;&lt;a href=&#34;https://descriptiva-estad-apli-ucm-2021-2022.netlify.app/&#34;&gt;Haz click para ver diapositivas en pantalla completa&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;haz-click-para-ver-el-código-de-las-diapositivashttpsgithubcomdadosdelaplacedocencia&#34;&gt;&lt;a href=&#34;https://github.com/dadosdelaplace/docencia&#34;&gt;Haz click para ver el código de las diapositivas&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

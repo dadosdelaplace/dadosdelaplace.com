@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>modelos on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/modelos/</link>
+    <description>Recent content in modelos on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/modelos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Introduction to Data Analysis</title>
+      <link>https://www.dadosdelaplace.com/cursos/aida/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/aida/</guid>
+      <description>&lt;h2 id=&#34;enlace-a-la-documentación-gratuito&#34;&gt;Enlace a la documentación (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://michael-franke.github.io/intro-data-analysis/index.html&#34;&gt;https://michael-franke.github.io/intro-data-analysis/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>goffda package: Goodness-of-Fit tests for functional data</title>
+      <link>https://www.dadosdelaplace.com/cursos/goffda/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/goffda/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/goffda/man/goffda-package.html&#34;&gt;https://rdrr.io/cran/goffda/man/goffda-package.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

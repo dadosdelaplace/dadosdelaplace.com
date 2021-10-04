@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deportes on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/deportes/</link>
+    <description>Recent content in deportes on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Sat, 11 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/deportes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Software soccergraphR</title>
+      <link>https://www.dadosdelaplace.com/cursos/soccergraphr/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/soccergraphr/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/goffda/man/goffda-package.html&#34;&gt;https://rdrr.io/cran/goffda/man/goffda-package.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

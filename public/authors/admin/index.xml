@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/authors/admin/</link>
+    <description>Recent content on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carta #1: perderlo todo, volver a empezar</title>
+      <link>https://www.dadosdelaplace.com/post/cartas-laplace-1/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/post/cartas-laplace-1/</guid>
+      <description>&lt;h1 id=&#34;nueva-entrada-en-la-newsletter&#34;&gt;Nueva entrada en la newsletter:&lt;/h1&gt;
+&lt;h2 id=&#34;httpscartasdelaplacesubstackcompcarta-1&#34;&gt;&lt;a href=&#34;https://cartasdelaplace.substack.com/p/carta-1&#34;&gt;https://cartasdelaplace.substack.com/p/carta-1&lt;/a&gt;&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Qué lenguaje elegir? R, Python o Matlab: la batalla final</title>
+      <link>https://www.dadosdelaplace.com/post/r-python/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/post/r-python/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Quiero empezar con el análisis de datos: ¿qué lenguaje debo elegir?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Esta es una de las preguntas más habituales que recibimos muchos/as de los/as que nos dedicamos al análisis de datos y la divulgación estadística en redes: &lt;strong&gt;de todo el vasto universo de lenguajes de programación, ¿cuál elegir?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Y te voy a decepcionar con la respuesta: &lt;strong&gt;depende&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;rajoy.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El propósito de esta entrada no es hacer una disertación sobre el mundo de la programación (tienes una &lt;a href=&#34;#cronologia&#34;&gt;breve cronología&lt;/a&gt; al final de la entrada) sino &lt;strong&gt;servir de guía a un usuario muggle para elegir&lt;/strong&gt; entre los tres lenguajes más comunes en la ciencia (sin requerir grandes conocimientos de informática): ¿&lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; o &lt;code&gt;Matlab&lt;/code&gt;?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;¿Necesito una &lt;strong&gt;ejecución rápida&lt;/strong&gt; (tareas diarias iguales, por ejemplo)?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Estoy dispuesto a sacrificar tiempo en ejecución a cambio de una &lt;strong&gt;curva de aprendizaje más rápida&lt;/strong&gt; y un &lt;strong&gt;tiempo en la programación&lt;/strong&gt; más corto?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aunque los tres lenguajes son diferentes entre sí, he optado por ellos ya que comparten una virtud: son &lt;strong&gt;lenguajes de alto nivel&lt;/strong&gt;. Como regla general, los &lt;strong&gt;lenguajes de alto nivel&lt;/strong&gt; suelen ser más lentos en ejecución pero mucho &lt;strong&gt;más cómodos y sencillos&lt;/strong&gt; para un usuario medio, mientras que &lt;strong&gt;lenguajes de bajo nivel&lt;/strong&gt; (&lt;code&gt;C&lt;/code&gt; o &lt;code&gt;FORTRAN&lt;/code&gt;) son mucho más rápidos en ejecución, pero &lt;strong&gt;requieren de un mayor conocimiento&lt;/strong&gt; informático. Y aunque algunos científicos con conocimientos en programación siguen optando por los lenguajes de bajo nivel, la &lt;strong&gt;mayoría de la comunidad científica&lt;/strong&gt; optan en sus análisis por lenguajes que puedan aprender rápido, al no requerir en general de una gran eficiencia en tiempos de ejecución (sacrificando algunos segundos o minutos en la ejecución, a cambio de poder ser más o menos autosuficientes en su programación).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;consejo-descarta-matlab-apuesta-por-el-software-libre&#34;&gt;Consejo: descarta Matlab, apuesta por el software libre&lt;/h1&gt;
+&lt;p&gt;Debido a su potencia, seguramente si eres un &lt;strong&gt;usuario medio&lt;/strong&gt; que necesita cosas sencillas para el análisis de datos, &lt;strong&gt;las tres herramientas&lt;/strong&gt; te puedan cubrir la mayoría de tus necesidades. Sin embargo, hay un aspecto que diferencia &lt;code&gt;Matlab&lt;/code&gt; (&lt;code&gt;M&lt;/code&gt;) de los otros dos lenguajes: &lt;strong&gt;&lt;code&gt;Matlab&lt;/code&gt; es de pago&lt;/strong&gt;. Como sucede con lenguajes/herramientas como &lt;code&gt;SPSS&lt;/code&gt; (IBM) o &lt;code&gt;SAS&lt;/code&gt;, &lt;code&gt;Matlab&lt;/code&gt;  requiere de una &lt;strong&gt;licencia de pago&lt;/strong&gt;. Esta desventaja a priori puede que no nos parezca relevante a la hora de decidirnos por un lenguaje de programación, ya que probablemente lo hayas podido usar de forma «gratuita», bien porque hayas encontrado una forma de &lt;strong&gt;piratearlo&lt;/strong&gt; (en el caso de &lt;code&gt;Matlab&lt;/code&gt;, bastante sencillo), bien porque tengas acceso a una licencia académica o corporativa, siendo tu universidad o empresa la que tenga un &lt;strong&gt;acuerdo de licencias&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Es entonces una desventaja real?&lt;/strong&gt; Sí, pero no por el precio que tengas que pagar por su uso, sino por lo que ello implica: su &lt;strong&gt;código no es de libre uso&lt;/strong&gt;. &lt;code&gt;Matlab&lt;/code&gt;, como todos los programas de software de pago, son de código cerrado, lo que &lt;strong&gt;impide acceder al totalidad del código&lt;/strong&gt; de las funciones internas del lenguaje, lo cual a su vez &lt;strong&gt;impide la colaboración entre usuarios&lt;/strong&gt;: &lt;code&gt;Matlab&lt;/code&gt; &lt;strong&gt;no permite la instalación directa de código validado por la comunidad&lt;/strong&gt; de usuarios (puedes copiar y pegar código que encuentres en la red, pero sin tener una garantía de que realiza lo que promete, ni de compatibilidad, ni de integración, ni de documentación).&lt;/p&gt;
+&lt;p&gt;Otra aspecto diferencial para descartar &lt;code&gt;Matlab&lt;/code&gt; es que, como probablemente hayas experimentado si has trabajado con dicha herramienta, tiene un alto consumo de recursos. No solo &lt;strong&gt;consume una monstruosa cantidad de espacio en el disco duro&lt;/strong&gt; tras sus instalación (mientras que instalar &lt;code&gt;R&lt;/code&gt; puede ocupar 100MB, una instalación de &lt;code&gt;Matlab&lt;/code&gt; puede superar los 5GB), sino que además &lt;strong&gt;consume una gran cantidad de memoria RAM&lt;/strong&gt; en su ejecución: es una herramienta tan potente pero tan rígida en su configuración que «por si lo necesitases» implementa toda una compleja infraestructura.&lt;/p&gt;
+&lt;p&gt;Y es que precisamente una de las desventajas (en mi opinión) de &lt;code&gt;Matlab&lt;/code&gt;, aunque pueda parecer contradictorio, es su propósito general, ya que &lt;strong&gt;pretende abarcar tantos campos&lt;/strong&gt; que, salvo necesidades muy especiales donde no hay competidor (modelización y simulación de ecuaciones diferenciales y cálculo matricial, entre ellas, no es casualidad que se llame
+&lt;strong&gt;MAT&lt;/strong&gt;rix &lt;strong&gt;LAB&lt;/strong&gt;oratory), seguramente &lt;strong&gt;puedas encontrar otro lenguaje o software libre cuyas funcionalidades sean más acordes&lt;/strong&gt; y específicas a tu necesidad, como puede ser el caso de &lt;code&gt;R&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt; respecto al análisis de datos.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;r-o-python&#34;&gt;¿&lt;code&gt;R&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt;?&lt;/h1&gt;
+&lt;p&gt;Se acabó el &lt;em&gt;hype&lt;/em&gt;, vamos a pinchar la burbuja: &lt;strong&gt;ambos son igualmente válidos para el análisis de datos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;En mi caso particular, durante la carrera aprendí lenguajes como &lt;code&gt;C++&lt;/code&gt;, &lt;code&gt;FORTRAN&lt;/code&gt;, &lt;code&gt;PASCAL&lt;/code&gt; o &lt;code&gt;Java&lt;/code&gt;, mi TFM lo realicé en &lt;code&gt;Python&lt;/code&gt; y mi tesis doctoral la hice entera en &lt;code&gt;Matlab&lt;/code&gt; (limitaciones ajenas), por lo que no fue hasta finalizar la tesis (julio de 2018) cuando empecé a programar más intensamente en &lt;code&gt;R&lt;/code&gt;, así que se podría decir que es el lenguaje que menos horas he dedicado (pero en el que más he producido, curiosamente). Y es que mientras que &lt;strong&gt;&lt;code&gt;Python&lt;/code&gt; es un lenguaje de un propósito mucho más general&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;R&lt;/code&gt; fue diseñado por y para matemáticos y estadísticos&lt;/strong&gt;, y se nota desde la propia arquitectura del lenguaje. Obviamente este objetivo tan específico tiene una desventaja: por regla general, &lt;strong&gt;&lt;code&gt;Python&lt;/code&gt; es más eficiente&lt;/strong&gt; (con tiempos de ejecución más cortos), y está dotado de una &lt;strong&gt;mayor flexibilidad&lt;/strong&gt; para el desarrollo web, la Inteligencia Artificial, el preprocesamiento de imágenes o la integración con todo tipo de apps o programas (incluso con herramientas de edición de audio y vídeo de la saga Adobe).&lt;/p&gt;
+&lt;p&gt;Ambos tienen &lt;strong&gt;tres ventajas&lt;/strong&gt; que los hacen muy difícil de superar en el ámbito del análisis de datos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Software libre&lt;/strong&gt;, con una &lt;strong&gt;inmensa comunidad de usuarios&lt;/strong&gt; produciendo y validando código: seguramente lo que necesites ya haya sido implementado (en su totalidad o de forma parcial) por alguien antes y solo necesites adaptarlo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fácil integración de otros lenguajes&lt;/strong&gt;, como puede ser &lt;code&gt;FORTRAN&lt;/code&gt; o &lt;code&gt;C++&lt;/code&gt;, para tareas más tediosas y costosas (como la programación en paralelo).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Modulares&lt;/strong&gt;: su instalación básica ocupa muy poco espacio, y mediante la instalación de paquetes (&lt;code&gt;R&lt;/code&gt;) o librerías (&lt;code&gt;Python&lt;/code&gt;), permiten su configuración totalmente adaptada a nuestras necesidades.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dada su flexibilidad y potencia, ambos seguramente cubran tus necesidades en cuanto a análisis de datos se refiere, por lo que si ya has empezado con alguno de ellos, mi &lt;strong&gt;consejo es que sigas con el lenguaje que te resulte más cómodo, y del que tengas ya cierta base&lt;/strong&gt;. Sin embargo, si &lt;strong&gt;estás partiendo de cero&lt;/strong&gt;, mi recomendación (para el análisis de datos) es sin duda &lt;code&gt;R&lt;/code&gt; ya que cuenta con tres ventajas frente a &lt;code&gt;Python&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En lo referente al análisis de datos y la estadística, &lt;strong&gt;&lt;code&gt;R&lt;/code&gt; cuenta una mayor comunidad de usuarios&lt;/strong&gt;, por lo que tendrás a tu disposición una mayor variedad de paquetes y de soporte en la web.&lt;/li&gt;
+&lt;li&gt;Fue diseñado especialmente para el análisis de datos, por lo que se requieren &lt;strong&gt;muy pocas líneas de código&lt;/strong&gt; para la implementación de flujos de trabajo en la carga de datos, preprocesamiento, modelos predictivos y validación.&lt;/li&gt;
+&lt;li&gt;La &lt;strong&gt;gran fortaleza de &lt;code&gt;R&lt;/code&gt;&lt;/strong&gt; es contar con &lt;strong&gt;herramientas muy potentes para la visualización de datos&lt;/strong&gt; (como el paquete &lt;code&gt;{ggplot2}&lt;/code&gt;) y la presentación de resultados (como los paquetes &lt;code&gt;{shiny}&lt;/code&gt; para crear apps interactivas con el usuario, &lt;code&gt;{bookdown}&lt;/code&gt; para crear libros con código y latex integrado, o &lt;code&gt;{blogdown}&lt;/code&gt; para crear webs como en la que estás).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es por todo ello por lo que &lt;strong&gt;mi recomendación si estás empezando en el análisis estadístico&lt;/strong&gt;, o el uso que le vas a dar está orientado a la &lt;strong&gt;producción de informes&lt;/strong&gt; o análisis estadísticos para revistas científicas, sea apostar por &lt;code&gt;R&lt;/code&gt; pero sin volverte loco/a: si ya tienes conocimientos de &lt;code&gt;Python&lt;/code&gt; y/o la mayor parte de tus colegas de profesión lo están usando, mi consejo es que sigas apostando por él.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutorial para muggles: &lt;a href=&#34;https://aprendiendo-r-intro.netlify.app/&#34;&gt;primeros pasos en &lt;code&gt;R&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lenguaje&lt;/th&gt;
+&lt;th&gt;Ventajas&lt;/th&gt;
+&lt;th&gt;Desventajas&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Matlab&lt;/td&gt;
+&lt;td&gt;gran cantidad de herramientas en las toolbox - cálculo matricial - modelado 3D&lt;/td&gt;
+&lt;td&gt;software de pago - alto consumo de memoria - lento - propósito demasiado general&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;software libre - pensado por y para la estadística - gran cantidad de usuarios y paquetes disponibles - visualización y análisis de datos - creación de informes con código integrado&lt;/td&gt;
+&lt;td&gt;mayor dificultad para el desarrollo web - mal programado puede ser lento&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Python&lt;/td&gt;
+&lt;td&gt;rápido - software libre - facilidad en lectura de archivos - integración sencilla con otros lenguajes y aplicaciones - Inteligencia Artificial - preprocesamiento de imágenes&lt;/td&gt;
+&lt;td&gt;Problemas en el manejo de grandes bases de datos - no orientado especificamente al análisis y visualización estadística&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;cronologia&#34;&gt;Breve y cutre cronología de los lenguajes de programación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1843&lt;/strong&gt;. Aunque el mérito cinematográfico se lo llevó Alan Turing, fue una mujer, &lt;strong&gt;Ada Lovelace&lt;/strong&gt;, la primera en crear lo que hoy llamaríamos un algoritmo computacional mecánico: una secuencia finita de pasos realizados por una maquina (en este caso, un telar).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1936&lt;/strong&gt;. Apoyándose en las ideas de Lovelace, &lt;strong&gt;Turing&lt;/strong&gt; diseñó una máquina capaz de almacenar datos en una cinta y procesas los símbolos guardados en ella siguiendo una colección de reglas lógicas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1944&lt;/strong&gt;. Coincidiendo con el final de la Segunda Guerra Mundial, empezaron a aparecer las primeras computadoras alimentadas con electricidad, siendo Konrad Zuse el desarrollador del primer lenguaje de programación moderno, &lt;code&gt;Plankalkül&lt;/code&gt;, proporcionando procedimientos para guardar pedazos de código y así poder realizar de forma sistemática operaciones rutinarias.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1949&lt;/strong&gt;. Nace el &lt;strong&gt;lenguaje ensamblador&lt;/strong&gt;, el lenguaje de programación de más bajo nivel, el conjunto de reglas más sencillo para dar instrucciones a componentes electrónicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1957&lt;/strong&gt;. Nace &lt;code&gt;FORTRAN&lt;/code&gt;, probablemente el lenguaje de programación más importante de la historia de la informática y el más antiguo que sigue aún en uso. Aunque sigue siendo un lenguaje de bajo nivel (tiempos elevados en su programación, tiempos muy reducidos en su ejecución y compilación), &lt;code&gt;FORTRAN&lt;/code&gt; permite la realización de cálculos matemáticos y estadísticos de gran complejidad.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1964-1970&lt;/strong&gt;. Nacen &lt;code&gt;BASIC&lt;/code&gt; y &lt;code&gt;PASCAL&lt;/code&gt;, los primeros lenguajes de programación orientados a estudiantes de ciencias que no tuvieran grandes conocimientos de informática y fáciles de aprender, razones por las que fueron los lenguajes por los que apostaron en un primer momento Microsoft y Apple, respectivamente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1972&lt;/strong&gt;. IBM lanzó &lt;code&gt;SQL&lt;/code&gt; (otrora SEQUEL), el lenguaje de programación más importante el manejo de bases de datos y la base de la mayoría de sistemas de gestión de datos, permitiendo una consulta muy eficiente de ficheros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1972-1983&lt;/strong&gt;. Los desarrolladores de los laboratorios de la Bell Telephone lanzan &lt;code&gt;C&lt;/code&gt;, junto con &lt;code&gt;FORTRAN&lt;/code&gt; el lenguaje de programación más importante y usado, en el que posteriormente se han basado lenguajes como &lt;code&gt;C#&lt;/code&gt;, &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt;, &lt;code&gt;Perl&lt;/code&gt;, &lt;code&gt;PHP&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt;. En 1983 Bjarne Stroustrup extendió dicho lenguaje derivando en &lt;code&gt;C++&lt;/code&gt;, el lenguaje motor de herramientas como Office, Adobe o algunos videojuegos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1976&lt;/strong&gt;. Los laboratorios Bell sacaron la primera versión del lenguaje conocido &lt;code&gt;S&lt;/code&gt;, un primer intento de lenguaje de programación enfocado al análisis estadístico y el cálculo matemático.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1991&lt;/strong&gt;. Inspirados en los Monty Python, Guido Van Rossum desarrolló &lt;code&gt;Python&lt;/code&gt;, un lenguaje libre, de alto nivel, modaular y con un propósito general, siendo el lenguaje por el que han apostado empresas como Spotify o Netflix.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1993&lt;/strong&gt;. Expertos en estadística computacional (el conocido como R Development Core Team) decidieron apostar por extender &lt;code&gt;S&lt;/code&gt; a &lt;code&gt;R&lt;/code&gt;, para obtener un lenguaje de programación más estable y de licencia gratuita.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1995&lt;/strong&gt;. James Gosling crea &lt;code&gt;Java&lt;/code&gt;, el lenguaje orientado a objetos más importante y en el que se basan otros lenguajes posteriores, con el objetivo de desarrollar herramientas y softwares interactivos con el usuario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué Excel no es tu amigo? ¿Por qué aprender R?</title>
+      <link>https://www.dadosdelaplace.com/post/excel-no/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/post/excel-no/</guid>
+      <description>&lt;p&gt;Si tienes amistades matemáticas o dedicadas activamente al análisis de datos, amén de replantearte qué haces con tu vida, seguramente te hayan dado la brasa sobre &lt;strong&gt;desterrar de tu vida el Excel&lt;/strong&gt;, esa maravillosa hoja de cálculo que Microsoft pone a nuestra disposición. Y aunque parezca contradictorio con el título de la entrada, he aquí mi primer consejo: &lt;strong&gt;no dejes de usar Excel&lt;/strong&gt;, es maravilloso&amp;hellip;&lt;strong&gt;para la función para la que fue creado&lt;/strong&gt;. Y es que Excel, como detalla Microsoft en su propia documentación, fue diseñado como una potente hoja de cálculo, pero &lt;strong&gt;una hoja de cálculo al fin y al cabo&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Una hoja de cálculo es un tipo de documento que permite manipular datos numéricos y alfanuméricos dispuestos en forma de tablas compuestas por celdas, las cuales se suelen organizar en una matriz de filas y columnas. (Wikipedia)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La potencia de Excel, como de todo el paquete Office, radica en su &lt;strong&gt;aparente sencillez de uso y su flexibilidad&lt;/strong&gt;, con una apariencia que nos resulta familiar, ya que hemos sido educados durante muchos años en el marco estético de Microsoft. Excel es una muy eficaz herramienta para planificar viajes, cuentas familiares, las finanzas de pequeñas empresas, la declaración de la renta o la gestión de tareas mecánicas y no suficientemente complejas. Y está bien que siga existiendo, yo mismo lo sigo usando para algunas de esas tareas. &lt;strong&gt;¿La clave?&lt;/strong&gt; No usarlo para tareas para las que no fue diseñado.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;bases-de-datos-y-lenguajes-de-programación&#34;&gt;Bases de datos y lenguajes de programación&lt;/h2&gt;
+&lt;p&gt;Y es que uno de los grandes problemas del Excel ha sido, es y será su uso como base de datos. &lt;strong&gt;¿Por qué es una pésima idea dicho uso?&lt;/strong&gt; En informática y gestión de datos, se conoce como &lt;strong&gt;base de datos&lt;/strong&gt; a toda herramienta (o conjunto de las mismas) que permitan (entre otras tareas)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Almacenar &lt;strong&gt;GRANDES&lt;/strong&gt; cantidades de datos.&lt;/li&gt;
+&lt;li&gt;Permitir la &lt;strong&gt;INTERRELACIÓN&lt;/strong&gt; con otras bases de datos.&lt;/li&gt;
+&lt;li&gt;Preservar la &lt;strong&gt;INTEGRIDAD&lt;/strong&gt; del dato (que campos como la fecha no dependa del ordenador o la versión que tengas instalada).&lt;/li&gt;
+&lt;li&gt;Permitir &lt;strong&gt;CONSULTAR&lt;/strong&gt; los datos de forma rápida y eficiente, en base a uniones, intersecciones, filtros y otras operaciones lógicas.&lt;/li&gt;
+&lt;li&gt;Permitir la &lt;strong&gt;AUTOMATIZACIÓN&lt;/strong&gt; de tareas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tareas muchas de ellas que, o bien Excel no tiene implementadas, o bien (y he aquí el truco) la curva de aprendizaje necesaria (por ejemplo, para programar en Excel las conocidas como macros) acaba siendo mucho más elevada que las propias bases de datos o &lt;strong&gt;lenguajes de programación&lt;/strong&gt; como &lt;code&gt;R&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt; (que no solo permite el análisis, el cálculo y una más eficiente gestión de los datos que Excel, sino una sencilla automatización), lenguajes ambos de &lt;strong&gt;alto nivel&lt;/strong&gt; para el usuario y &lt;strong&gt;modulares&lt;/strong&gt;. Los lenguajes de alto nivel como &lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; (curso interactivo de Python en &lt;a href=&#34;https://checkio.org/&#34;&gt;https://checkio.org/&lt;/a&gt;) o &lt;code&gt;Matlab&lt;/code&gt;, facilitan la programación al usuario, teniendo que preocuparte solo de la tarea de programar. Son lenguajes con una &lt;strong&gt;menor curva de aprendizaje&lt;/strong&gt; aunque suelen ser más lentos en su ejecución en comparación con lenguajes de bajo nivel (&lt;code&gt;C&lt;/code&gt;, &lt;code&gt;C++&lt;/code&gt; o &lt;code&gt;Fortran&lt;/code&gt;), lenguajes muy rápidos en su ejecución pero cuya programación requiere un mayor tiempo y formación, teniendo que además estar pendiente del tipo de variables, espacio en memoria, etc.&lt;/p&gt;
+&lt;p&gt;Por su arquitectura, &lt;code&gt;R&lt;/code&gt; en concreto es un lenguaje que puede ser usado para un propósito general pero que está especialmente diseñado para el &lt;strong&gt;análisis estadístico de datos&lt;/strong&gt;, así como la &lt;strong&gt;visualización gráfica&lt;/strong&gt; de los mismos. Su &lt;strong&gt;modularidad&lt;/strong&gt; nos da la ventaja de que podemos instalar las funcionalidades que vayamos necesitando de forma progresiva.&lt;/p&gt;
+&lt;h3 id=&#34;cuáles-son-las-principales-desventajas-de-excel&#34;&gt;&lt;strong&gt;¿Cuáles son las principales desventajas de Excel?&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Software de pago&lt;/strong&gt;: Excel, al igual que el resto de programas de Microsoft o SPSS (por desgracia, programa estrella de nuestro sistema sanitario), es un programa de pago. A nivel individual, todos hemos tenido una versión que no hemos pagado, pero dicha evasión no se la puede permitir una empresa, universidad o administración, que debe pagar altas cantidades de dinero anuales por las licencias, dinero que no sería necesario si los investigadores y trabajadores tuvieran formación (remunerada) en herramientas de software libre.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Software cerrado&lt;/strong&gt;: no solo es de pago sino que &lt;strong&gt;es cerrado (no es software libre)&lt;/strong&gt;, así que solo podemos hacer lo que Excel ha creído interesante que podamos hacer. Incluso con la programación de macros, las funcionalidades de Excel siguen siendo mucho más limitadas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Alto consumo de memoria&lt;/strong&gt;: dicha programación ya predeterminada hace que Excel ocupe muchísimo espacio en el disco duro y tenga un alto consumo de memoria (la memoria es lo que te permite hacer varias tareas a la vez en tu ordenador).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;No es universal&lt;/strong&gt;: no solo es de pago sino que además, dependiendo de la versión que tengas de Excel, tendrá un formato distinto para datos como fechas, teniendo incluso extensiones distintas, de forma que un archivo &lt;code&gt;.xls&lt;/code&gt; abierto por un Excel moderno puede provocar errores en la carga.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;¡ES SOLO UNA HOJA DE CÁLCULO!&lt;/strong&gt;: como ya hemos comentado, el propio Microsoft desaconseja el uso de Excel para el análisis de grandes volúmenes de datos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;¿Puedes ser el mejor partiendo un filete con una cuchara?&lt;/strong&gt; Seguramente puedas (en Excel puedes hasta programar con macros), y si siempre lo hiciste así, acabarás normalizándolo, pero seguirás siendo una persona comiendo filete con cuchara (reflexión de un servidor).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;qué-sucede-si-usamos-la-herramienta-equivocada&#34;&gt;¿Qué sucede si usamos la herramienta equivocada?&lt;/h2&gt;
+&lt;p&gt;Tres ejemplos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problemas para codificar fechas&lt;/strong&gt;: en 2016 se publicó una &lt;a href=&#34;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7&#34;&gt;revisión de artículos en genética&lt;/a&gt;, descubriendo que 1 de cada 5 artículos contenían errores debido a una mala codificación de las fechas, conviertiendo por ejemplo los genes Septin-2 (conocido como SEPT2) en fechas, y al revés.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;excel_genes.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problemas de memoria&lt;/strong&gt;: un Excel permite por defecto una cantidad máxima de filas. Aunque dicha cantidad se puede ampliar, sigue siendo finita, por lo que cuando superas el umbral de filas, al añadir filas Excel te borra registros &lt;strong&gt;sin avisarte de que lo está haciendo&lt;/strong&gt;. Esto es lo que sucedió con los &lt;a href=&#34;https://www.redaccionmedica.com/secciones/sanidad-hoy/covid-reino-unido-pierden-16000-positivos-9989&#34;&gt;registros de casos covid en Reino Unido&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;excel_uk.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Problemas para codificar edades&lt;/strong&gt;: una variable de tipo fecha, aunque nosotros la veamos con letras, en realidad es una variable numérica que representa los días que han pasado desde una fecha origen. En función de las distintas versiones de Excel, dicha fecha origen cambia. Además, si se codifica mal la fecha en formato &lt;code&gt;dd-mm-YY&lt;/code&gt;, dicho formato cuando se exporta a otro excel en texto, no permite distinguir a un nacido en 1918 y a un nacido en 2018, así que podemos estar confundiendo personas de 103 años con niños de 3 años (y es lo que &lt;a href=&#34;https://www.niusdiario.es/sociedad/sanidad/sanidad-reconoce-datos-muertes-ninos-covid-erroneos-contabilizaban-centenarios-como-menores_18_3107220241.html&#34;&gt;sucedió en España&lt;/a&gt;, observando unas tasas de mortalidad en niños muy pequeños equivalentes a personas mayores).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;excel_edades.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt; 
+ &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Moraleja&lt;/strong&gt;: la sopa, con cuchara.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A goodness-of-fit test for the functional linear model with functional response</title>
+      <link>https://www.dadosdelaplace.com/publication/scandinavian_2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/scandinavian_2021/</guid>
+      <description>&lt;h2 id=&#34;paquetessoftware-del-artículo&#34;&gt;Paquetes/software del artículo:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Paquete &lt;code&gt;{goffda}&lt;/code&gt;: &lt;a href=&#34;https://cran.r-project.org/web/packages/goffda/index.html&#34;&gt;https://cran.r-project.org/web/packages/goffda/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction of air pollutants PM10 by ARBX(1) processes</title>
+      <link>https://www.dadosdelaplace.com/publication/serra_2019/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/serra_2019/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A note on strong-consistency of componentwise ARH(1) predictors</title>
+      <link>https://www.dadosdelaplace.com/publication/sp_19/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/sp_19/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tesis «Inference on linear processes in Hilbert and Banach spaces, statistical analysis of high-dimensional data»</title>
+      <link>https://www.dadosdelaplace.com/publication/tesis/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/tesis/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asymptotic properties of a component-wise ARH (1) plug-in predictor</title>
+      <link>https://www.dadosdelaplace.com/publication/stats_interface/</link>
+      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/stats_interface/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Classical and Bayesian componentwise predictors for non-compact correlated ARH(1) process</title>
+      <link>https://www.dadosdelaplace.com/publication/revstat/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/revstat/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apariciones en prensa escrita 📰</title>
+      <link>https://www.dadosdelaplace.com/medios/prensa_escrita/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/medios/prensa_escrita/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;«Qué es la paradoja de Simpson y cómo puede hacernos malinterpretar los datos de las vacunas contra la COVID-19» (Maldita.es, 08-09-2021): &lt;a href=&#34;https://maldita.es/malditateexplica/20210908/paradoja-simpson-malinterpretar-datos-vacunas-covid/&#34;&gt;https://maldita.es/malditateexplica/20210908/paradoja-simpson-malinterpretar-datos-vacunas-covid/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«Ni gatos ni pasteles: el anestesista y el matemático que arrasan en redes porque ayudan a entender la pandemia» (El País, 09-08-2021): &lt;a href=&#34;https://elpais.com/espana/madrid/2021-08-09/ni-gatos-ni-pasteles-el-anestesista-y-el-matematico-que-arrasan-en-redes-porque-ayudan-a-entender-la-pandemia.html&#34;&gt;https://elpais.com/espana/madrid/2021-08-09/ni-gatos-ni-pasteles-el-anestesista-y-el-matematico-que-arrasan-en-redes-porque-ayudan-a-entender-la-pandemia.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«El nuevo modelo para aplicar cierres busca anticiparse y evitar la saturación hospitalaria» (El Comercio, 21-01-2021): &lt;a href=&#34;https://www.elcomercio.es/asturias/nuevo-modelo-aplicar-cierres-anticiparse-evitar-saturacion-hospitalaria-20210121000636-ntvo.html&#34;&gt;https://www.elcomercio.es/asturias/nuevo-modelo-aplicar-cierres-anticiparse-evitar-saturacion-hospitalaria-20210121000636-ntvo.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«El matemático que secuencia la pandemia en Asturias: &amp;lsquo;El que diga cómo será dentro de un mes se está tirando el pisto&amp;rsquo;» (La Voz de Asturias, 21-01-2021): &lt;a href=&#34;https://www.lavozdeasturias.es/noticia/asturias/2021/01/20/matematico-secuencia-pandemia-asturias-diga-sera-dentro-mes-tirando-pisto/00031611162707190915383.htm&#34;&gt;https://www.lavozdeasturias.es/noticia/asturias/2021/01/20/matematico-secuencia-pandemia-asturias-diga-sera-dentro-mes-tirando-pisto/00031611162707190915383.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«España triplica en dos meses la cifra de muertos por coronavirus y se aproxima a los 150 diarios» (eldiario.es, 01-11-2020): &lt;a href=&#34;https://www.eldiario.es/sociedad/espana-aproxima-150-muertos-dia-coronavirus-lejos-todavia-pico-invierno_1_6377111.html&#34;&gt;https://www.eldiario.es/sociedad/espana-aproxima-150-muertos-dia-coronavirus-lejos-todavia-pico-invierno_1_6377111.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«Enganchados al Excel: cómo su (mal) uso está alimentando el caos en los datos del covid» (El Confidencial, 28-10-2020): &lt;a href=&#34;https://www.elconfidencial.com/tecnologia/2020-10-28/excel-coronavirus-covid-datos-caos-programa_2808600/&#34;&gt;https://www.elconfidencial.com/tecnologia/2020-10-28/excel-coronavirus-covid-datos-caos-programa_2808600/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«España llega a un millón de contagios oficiales pero la cifra real supera los 3.5 millones» (NIUS, 21-10-2020): &lt;a href=&#34;https://www.niusdiario.es/sociedad/sanidad/millon-casos-coronavirus-espana-pero-cifra-real-tres-millones-y-medio_18_3030570153.html&#34;&gt;https://www.niusdiario.es/sociedad/sanidad/millon-casos-coronavirus-espana-pero-cifra-real-tres-millones-y-medio_18_3030570153.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«James Rhodes se convierte en el amigo invisible de un &amp;lsquo;científico precario&amp;rsquo; madrileño» (Verne, 20-12-2019): &lt;a href=&#34;https://verne.elpais.com/verne/2019/12/20/articulo/1576858095_240776.html&#34;&gt;https://verne.elpais.com/verne/2019/12/20/articulo/1576858095_240776.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apariciones en radio 🎙</title>
+      <link>https://www.dadosdelaplace.com/medios/radio/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/medios/radio/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;«Modelos matemáticos sobre el coronavirus» (Radio 5, 30-03-2020): &lt;a href=&#34;https://www.rtve.es/play/audios/raiz-de-5/raiz-5-modelos-matematicos-sobre-coronavirus-javier-alvarez-liebana-30-03-20/5548324/&#34;&gt;https://www.rtve.es/play/audios/raiz-de-5/raiz-5-modelos-matematicos-sobre-coronavirus-javier-alvarez-liebana-30-03-20/5548324/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apariciones en televisión 📺</title>
+      <link>https://www.dadosdelaplace.com/medios/tv/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/medios/tv/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;«En Europa las alertas frente al COVID-19 son mucho más exigentes que en España» (TVE1, 16-10-2020): &lt;a href=&#34;https://www.youtube.com/watch?v=LRC2PN2Wido&#34;&gt;https://www.youtube.com/watch?v=LRC2PN2Wido&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Apariciones en youtube, blogs y otros 📹🎙📃</title>
+      <link>https://www.dadosdelaplace.com/medios/youtube_blogs_otros/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/medios/youtube_blogs_otros/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;«Contando taxis, ganando guerras» (Canal de Youtube: EventEX, 12-12-2020): &lt;a href=&#34;https://www.youtube.com/watch?v=1N-gM3m9yUI&#34;&gt;https://www.youtube.com/watch?v=1N-gM3m9yUI&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«TODAS las MATEMÁTICAS detrás del COVID-19 con Javier Álvarez Liébana» (Canal de Youtube: lasmatematicas.es, 01-09-2020): &lt;a href=&#34;https://www.youtube.com/watch?v=0IMB72QmXRs&#34;&gt;https://www.youtube.com/watch?v=0IMB72QmXRs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«¿Por qué es tan DIFÍCIL PREDECIR MODELOS MATEMÁTICOS en estos días?» (Canal de Youtube: Raíz de Pi, 31-03-2020): &lt;a href=&#34;https://www.youtube.com/watch?v=W449qPUsFu8&#34;&gt;https://www.youtube.com/watch?v=W449qPUsFu8&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;«¿Qué relación hay entre los taxis y la Segunda Guerra Mundial?» (Blog: &lt;a href=&#34;https://www.dciencia.es&#34;&gt;https://www.dciencia.es&lt;/a&gt;, 28-08-2019): &lt;a href=&#34;https://www.dciencia.es/taxis-matematicas-guerramundial/&#34;&gt;https://www.dciencia.es/taxis-matematicas-guerramundial/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asymptotic properties of a component-wise ARH (1) plug-in predictor</title>
+      <link>https://www.dadosdelaplace.com/publication/jmva_16/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/jmva_16/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consistency of the plug-in functional predictor of the Ornstein–Uhlenbeck process in Hilbert and Banach spaces</title>
+      <link>https://www.dadosdelaplace.com/publication/sp_16/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/sp_16/</guid>
+      <description>&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

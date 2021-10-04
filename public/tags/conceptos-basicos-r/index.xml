@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conceptos básicos R on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/conceptos-basicos-r/</link>
+    <description>Recent content in conceptos básicos R on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Mon, 13 Sep 2021 01:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/conceptos-basicos-r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Primeros pasos en R</title>
+      <link>https://www.dadosdelaplace.com/cursos/intro-r/</link>
+      <pubDate>Mon, 13 Sep 2021 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/intro-r/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://aprendiendo-r-intro.netlify.app/&#34;&gt;https://aprendiendo-r-intro.netlify.app/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting started with R</title>
+      <link>https://www.dadosdelaplace.com/cursos/getting-started/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/getting-started/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Qué lenguaje elegir? R, Python o Matlab: la batalla final</title>
+      <link>https://www.dadosdelaplace.com/post/r-python/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/post/r-python/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Quiero empezar con el análisis de datos: ¿qué lenguaje debo elegir?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Esta es una de las preguntas más habituales que recibimos muchos/as de los/as que nos dedicamos al análisis de datos y la divulgación estadística en redes: &lt;strong&gt;de todo el vasto universo de lenguajes de programación, ¿cuál elegir?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Y te voy a decepcionar con la respuesta: &lt;strong&gt;depende&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;rajoy.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El propósito de esta entrada no es hacer una disertación sobre el mundo de la programación (tienes una &lt;a href=&#34;#cronologia&#34;&gt;breve cronología&lt;/a&gt; al final de la entrada) sino &lt;strong&gt;servir de guía a un usuario muggle para elegir&lt;/strong&gt; entre los tres lenguajes más comunes en la ciencia (sin requerir grandes conocimientos de informática): ¿&lt;code&gt;R&lt;/code&gt;, &lt;code&gt;Python&lt;/code&gt; o &lt;code&gt;Matlab&lt;/code&gt;?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;¿Necesito una &lt;strong&gt;ejecución rápida&lt;/strong&gt; (tareas diarias iguales, por ejemplo)?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;¿Estoy dispuesto a sacrificar tiempo en ejecución a cambio de una &lt;strong&gt;curva de aprendizaje más rápida&lt;/strong&gt; y un &lt;strong&gt;tiempo en la programación&lt;/strong&gt; más corto?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aunque los tres lenguajes son diferentes entre sí, he optado por ellos ya que comparten una virtud: son &lt;strong&gt;lenguajes de alto nivel&lt;/strong&gt;. Como regla general, los &lt;strong&gt;lenguajes de alto nivel&lt;/strong&gt; suelen ser más lentos en ejecución pero mucho &lt;strong&gt;más cómodos y sencillos&lt;/strong&gt; para un usuario medio, mientras que &lt;strong&gt;lenguajes de bajo nivel&lt;/strong&gt; (&lt;code&gt;C&lt;/code&gt; o &lt;code&gt;FORTRAN&lt;/code&gt;) son mucho más rápidos en ejecución, pero &lt;strong&gt;requieren de un mayor conocimiento&lt;/strong&gt; informático. Y aunque algunos científicos con conocimientos en programación siguen optando por los lenguajes de bajo nivel, la &lt;strong&gt;mayoría de la comunidad científica&lt;/strong&gt; optan en sus análisis por lenguajes que puedan aprender rápido, al no requerir en general de una gran eficiencia en tiempos de ejecución (sacrificando algunos segundos o minutos en la ejecución, a cambio de poder ser más o menos autosuficientes en su programación).&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;consejo-descarta-matlab-apuesta-por-el-software-libre&#34;&gt;Consejo: descarta Matlab, apuesta por el software libre&lt;/h1&gt;
+&lt;p&gt;Debido a su potencia, seguramente si eres un &lt;strong&gt;usuario medio&lt;/strong&gt; que necesita cosas sencillas para el análisis de datos, &lt;strong&gt;las tres herramientas&lt;/strong&gt; te puedan cubrir la mayoría de tus necesidades. Sin embargo, hay un aspecto que diferencia &lt;code&gt;Matlab&lt;/code&gt; (&lt;code&gt;M&lt;/code&gt;) de los otros dos lenguajes: &lt;strong&gt;&lt;code&gt;Matlab&lt;/code&gt; es de pago&lt;/strong&gt;. Como sucede con lenguajes/herramientas como &lt;code&gt;SPSS&lt;/code&gt; (IBM) o &lt;code&gt;SAS&lt;/code&gt;, &lt;code&gt;Matlab&lt;/code&gt;  requiere de una &lt;strong&gt;licencia de pago&lt;/strong&gt;. Esta desventaja a priori puede que no nos parezca relevante a la hora de decidirnos por un lenguaje de programación, ya que probablemente lo hayas podido usar de forma «gratuita», bien porque hayas encontrado una forma de &lt;strong&gt;piratearlo&lt;/strong&gt; (en el caso de &lt;code&gt;Matlab&lt;/code&gt;, bastante sencillo), bien porque tengas acceso a una licencia académica o corporativa, siendo tu universidad o empresa la que tenga un &lt;strong&gt;acuerdo de licencias&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿Es entonces una desventaja real?&lt;/strong&gt; Sí, pero no por el precio que tengas que pagar por su uso, sino por lo que ello implica: su &lt;strong&gt;código no es de libre uso&lt;/strong&gt;. &lt;code&gt;Matlab&lt;/code&gt;, como todos los programas de software de pago, son de código cerrado, lo que &lt;strong&gt;impide acceder al totalidad del código&lt;/strong&gt; de las funciones internas del lenguaje, lo cual a su vez &lt;strong&gt;impide la colaboración entre usuarios&lt;/strong&gt;: &lt;code&gt;Matlab&lt;/code&gt; &lt;strong&gt;no permite la instalación directa de código validado por la comunidad&lt;/strong&gt; de usuarios (puedes copiar y pegar código que encuentres en la red, pero sin tener una garantía de que realiza lo que promete, ni de compatibilidad, ni de integración, ni de documentación).&lt;/p&gt;
+&lt;p&gt;Otra aspecto diferencial para descartar &lt;code&gt;Matlab&lt;/code&gt; es que, como probablemente hayas experimentado si has trabajado con dicha herramienta, tiene un alto consumo de recursos. No solo &lt;strong&gt;consume una monstruosa cantidad de espacio en el disco duro&lt;/strong&gt; tras sus instalación (mientras que instalar &lt;code&gt;R&lt;/code&gt; puede ocupar 100MB, una instalación de &lt;code&gt;Matlab&lt;/code&gt; puede superar los 5GB), sino que además &lt;strong&gt;consume una gran cantidad de memoria RAM&lt;/strong&gt; en su ejecución: es una herramienta tan potente pero tan rígida en su configuración que «por si lo necesitases» implementa toda una compleja infraestructura.&lt;/p&gt;
+&lt;p&gt;Y es que precisamente una de las desventajas (en mi opinión) de &lt;code&gt;Matlab&lt;/code&gt;, aunque pueda parecer contradictorio, es su propósito general, ya que &lt;strong&gt;pretende abarcar tantos campos&lt;/strong&gt; que, salvo necesidades muy especiales donde no hay competidor (modelización y simulación de ecuaciones diferenciales y cálculo matricial, entre ellas, no es casualidad que se llame
+&lt;strong&gt;MAT&lt;/strong&gt;rix &lt;strong&gt;LAB&lt;/strong&gt;oratory), seguramente &lt;strong&gt;puedas encontrar otro lenguaje o software libre cuyas funcionalidades sean más acordes&lt;/strong&gt; y específicas a tu necesidad, como puede ser el caso de &lt;code&gt;R&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt; respecto al análisis de datos.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h1 id=&#34;r-o-python&#34;&gt;¿&lt;code&gt;R&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt;?&lt;/h1&gt;
+&lt;p&gt;Se acabó el &lt;em&gt;hype&lt;/em&gt;, vamos a pinchar la burbuja: &lt;strong&gt;ambos son igualmente válidos para el análisis de datos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;En mi caso particular, durante la carrera aprendí lenguajes como &lt;code&gt;C++&lt;/code&gt;, &lt;code&gt;FORTRAN&lt;/code&gt;, &lt;code&gt;PASCAL&lt;/code&gt; o &lt;code&gt;Java&lt;/code&gt;, mi TFM lo realicé en &lt;code&gt;Python&lt;/code&gt; y mi tesis doctoral la hice entera en &lt;code&gt;Matlab&lt;/code&gt; (limitaciones ajenas), por lo que no fue hasta finalizar la tesis (julio de 2018) cuando empecé a programar más intensamente en &lt;code&gt;R&lt;/code&gt;, así que se podría decir que es el lenguaje que menos horas he dedicado (pero en el que más he producido, curiosamente). Y es que mientras que &lt;strong&gt;&lt;code&gt;Python&lt;/code&gt; es un lenguaje de un propósito mucho más general&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;R&lt;/code&gt; fue diseñado por y para matemáticos y estadísticos&lt;/strong&gt;, y se nota desde la propia arquitectura del lenguaje. Obviamente este objetivo tan específico tiene una desventaja: por regla general, &lt;strong&gt;&lt;code&gt;Python&lt;/code&gt; es más eficiente&lt;/strong&gt; (con tiempos de ejecución más cortos), y está dotado de una &lt;strong&gt;mayor flexibilidad&lt;/strong&gt; para el desarrollo web, la Inteligencia Artificial, el preprocesamiento de imágenes o la integración con todo tipo de apps o programas (incluso con herramientas de edición de audio y vídeo de la saga Adobe).&lt;/p&gt;
+&lt;p&gt;Ambos tienen &lt;strong&gt;tres ventajas&lt;/strong&gt; que los hacen muy difícil de superar en el ámbito del análisis de datos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Software libre&lt;/strong&gt;, con una &lt;strong&gt;inmensa comunidad de usuarios&lt;/strong&gt; produciendo y validando código: seguramente lo que necesites ya haya sido implementado (en su totalidad o de forma parcial) por alguien antes y solo necesites adaptarlo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fácil integración de otros lenguajes&lt;/strong&gt;, como puede ser &lt;code&gt;FORTRAN&lt;/code&gt; o &lt;code&gt;C++&lt;/code&gt;, para tareas más tediosas y costosas (como la programación en paralelo).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Modulares&lt;/strong&gt;: su instalación básica ocupa muy poco espacio, y mediante la instalación de paquetes (&lt;code&gt;R&lt;/code&gt;) o librerías (&lt;code&gt;Python&lt;/code&gt;), permiten su configuración totalmente adaptada a nuestras necesidades.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dada su flexibilidad y potencia, ambos seguramente cubran tus necesidades en cuanto a análisis de datos se refiere, por lo que si ya has empezado con alguno de ellos, mi &lt;strong&gt;consejo es que sigas con el lenguaje que te resulte más cómodo, y del que tengas ya cierta base&lt;/strong&gt;. Sin embargo, si &lt;strong&gt;estás partiendo de cero&lt;/strong&gt;, mi recomendación (para el análisis de datos) es sin duda &lt;code&gt;R&lt;/code&gt; ya que cuenta con tres ventajas frente a &lt;code&gt;Python&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En lo referente al análisis de datos y la estadística, &lt;strong&gt;&lt;code&gt;R&lt;/code&gt; cuenta una mayor comunidad de usuarios&lt;/strong&gt;, por lo que tendrás a tu disposición una mayor variedad de paquetes y de soporte en la web.&lt;/li&gt;
+&lt;li&gt;Fue diseñado especialmente para el análisis de datos, por lo que se requieren &lt;strong&gt;muy pocas líneas de código&lt;/strong&gt; para la implementación de flujos de trabajo en la carga de datos, preprocesamiento, modelos predictivos y validación.&lt;/li&gt;
+&lt;li&gt;La &lt;strong&gt;gran fortaleza de &lt;code&gt;R&lt;/code&gt;&lt;/strong&gt; es contar con &lt;strong&gt;herramientas muy potentes para la visualización de datos&lt;/strong&gt; (como el paquete &lt;code&gt;{ggplot2}&lt;/code&gt;) y la presentación de resultados (como los paquetes &lt;code&gt;{shiny}&lt;/code&gt; para crear apps interactivas con el usuario, &lt;code&gt;{bookdown}&lt;/code&gt; para crear libros con código y latex integrado, o &lt;code&gt;{blogdown}&lt;/code&gt; para crear webs como en la que estás).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Es por todo ello por lo que &lt;strong&gt;mi recomendación si estás empezando en el análisis estadístico&lt;/strong&gt;, o el uso que le vas a dar está orientado a la &lt;strong&gt;producción de informes&lt;/strong&gt; o análisis estadísticos para revistas científicas, sea apostar por &lt;code&gt;R&lt;/code&gt; pero sin volverte loco/a: si ya tienes conocimientos de &lt;code&gt;Python&lt;/code&gt; y/o la mayor parte de tus colegas de profesión lo están usando, mi consejo es que sigas apostando por él.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tutorial para muggles: &lt;a href=&#34;https://aprendiendo-r-intro.netlify.app/&#34;&gt;primeros pasos en &lt;code&gt;R&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lenguaje&lt;/th&gt;
+&lt;th&gt;Ventajas&lt;/th&gt;
+&lt;th&gt;Desventajas&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Matlab&lt;/td&gt;
+&lt;td&gt;gran cantidad de herramientas en las toolbox - cálculo matricial - modelado 3D&lt;/td&gt;
+&lt;td&gt;software de pago - alto consumo de memoria - lento - propósito demasiado general&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;software libre - pensado por y para la estadística - gran cantidad de usuarios y paquetes disponibles - visualización y análisis de datos - creación de informes con código integrado&lt;/td&gt;
+&lt;td&gt;mayor dificultad para el desarrollo web - mal programado puede ser lento&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Python&lt;/td&gt;
+&lt;td&gt;rápido - software libre - facilidad en lectura de archivos - integración sencilla con otros lenguajes y aplicaciones - Inteligencia Artificial - preprocesamiento de imágenes&lt;/td&gt;
+&lt;td&gt;Problemas en el manejo de grandes bases de datos - no orientado especificamente al análisis y visualización estadística&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id=&#34;cronologia&#34;&gt;Breve y cutre cronología de los lenguajes de programación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1843&lt;/strong&gt;. Aunque el mérito cinematográfico se lo llevó Alan Turing, fue una mujer, &lt;strong&gt;Ada Lovelace&lt;/strong&gt;, la primera en crear lo que hoy llamaríamos un algoritmo computacional mecánico: una secuencia finita de pasos realizados por una maquina (en este caso, un telar).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1936&lt;/strong&gt;. Apoyándose en las ideas de Lovelace, &lt;strong&gt;Turing&lt;/strong&gt; diseñó una máquina capaz de almacenar datos en una cinta y procesas los símbolos guardados en ella siguiendo una colección de reglas lógicas.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1944&lt;/strong&gt;. Coincidiendo con el final de la Segunda Guerra Mundial, empezaron a aparecer las primeras computadoras alimentadas con electricidad, siendo Konrad Zuse el desarrollador del primer lenguaje de programación moderno, &lt;code&gt;Plankalkül&lt;/code&gt;, proporcionando procedimientos para guardar pedazos de código y así poder realizar de forma sistemática operaciones rutinarias.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1949&lt;/strong&gt;. Nace el &lt;strong&gt;lenguaje ensamblador&lt;/strong&gt;, el lenguaje de programación de más bajo nivel, el conjunto de reglas más sencillo para dar instrucciones a componentes electrónicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1957&lt;/strong&gt;. Nace &lt;code&gt;FORTRAN&lt;/code&gt;, probablemente el lenguaje de programación más importante de la historia de la informática y el más antiguo que sigue aún en uso. Aunque sigue siendo un lenguaje de bajo nivel (tiempos elevados en su programación, tiempos muy reducidos en su ejecución y compilación), &lt;code&gt;FORTRAN&lt;/code&gt; permite la realización de cálculos matemáticos y estadísticos de gran complejidad.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1964-1970&lt;/strong&gt;. Nacen &lt;code&gt;BASIC&lt;/code&gt; y &lt;code&gt;PASCAL&lt;/code&gt;, los primeros lenguajes de programación orientados a estudiantes de ciencias que no tuvieran grandes conocimientos de informática y fáciles de aprender, razones por las que fueron los lenguajes por los que apostaron en un primer momento Microsoft y Apple, respectivamente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1972&lt;/strong&gt;. IBM lanzó &lt;code&gt;SQL&lt;/code&gt; (otrora SEQUEL), el lenguaje de programación más importante el manejo de bases de datos y la base de la mayoría de sistemas de gestión de datos, permitiendo una consulta muy eficiente de ficheros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1972-1983&lt;/strong&gt;. Los desarrolladores de los laboratorios de la Bell Telephone lanzan &lt;code&gt;C&lt;/code&gt;, junto con &lt;code&gt;FORTRAN&lt;/code&gt; el lenguaje de programación más importante y usado, en el que posteriormente se han basado lenguajes como &lt;code&gt;C#&lt;/code&gt;, &lt;code&gt;Java&lt;/code&gt;, &lt;code&gt;JavaScript&lt;/code&gt;, &lt;code&gt;Perl&lt;/code&gt;, &lt;code&gt;PHP&lt;/code&gt; o &lt;code&gt;Python&lt;/code&gt;. En 1983 Bjarne Stroustrup extendió dicho lenguaje derivando en &lt;code&gt;C++&lt;/code&gt;, el lenguaje motor de herramientas como Office, Adobe o algunos videojuegos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1976&lt;/strong&gt;. Los laboratorios Bell sacaron la primera versión del lenguaje conocido &lt;code&gt;S&lt;/code&gt;, un primer intento de lenguaje de programación enfocado al análisis estadístico y el cálculo matemático.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1991&lt;/strong&gt;. Inspirados en los Monty Python, Guido Van Rossum desarrolló &lt;code&gt;Python&lt;/code&gt;, un lenguaje libre, de alto nivel, modaular y con un propósito general, siendo el lenguaje por el que han apostado empresas como Spotify o Netflix.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1993&lt;/strong&gt;. Expertos en estadística computacional (el conocido como R Development Core Team) decidieron apostar por extender &lt;code&gt;S&lt;/code&gt; a &lt;code&gt;R&lt;/code&gt;, para obtener un lenguaje de programación más estable y de licencia gratuita.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;1995&lt;/strong&gt;. James Gosling crea &lt;code&gt;Java&lt;/code&gt;, el lenguaje orientado a objetos más importante y en el que se basan otros lenguajes posteriores, con el objetivo de desarrollar herramientas y softwares interactivos con el usuario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R for Data Science</title>
+      <link>https://www.dadosdelaplace.com/cursos/r-data-science-wickham/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/r-data-science-wickham/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://r4ds.had.co.nz/index.html&#34;&gt;https://r4ds.had.co.nz/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en R</title>
+      <link>https://www.dadosdelaplace.com/docencia/intro-r/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/docencia/intro-r/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://aprendiendo-r-intro.netlify.app/&#34;&gt;https://aprendiendo-r-intro.netlify.app/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>{swirl}: learn R, in R</title>
+      <link>https://www.dadosdelaplace.com/cursos/swirl/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/swirl/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://swirlstats.com/students.html&#34;&gt;https://swirlstats.com/students.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

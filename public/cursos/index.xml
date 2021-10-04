@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cursos on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/cursos/</link>
+    <description>Recent content in Cursos on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/cursos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Introduction to Data Analysis</title>
+      <link>https://www.dadosdelaplace.com/cursos/aida/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/aida/</guid>
+      <description>&lt;h2 id=&#34;enlace-a-la-documentación-gratuito&#34;&gt;Enlace a la documentación (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://michael-franke.github.io/intro-data-analysis/index.html&#34;&gt;https://michael-franke.github.io/intro-data-analysis/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en R</title>
+      <link>https://www.dadosdelaplace.com/cursos/intro-r/</link>
+      <pubDate>Mon, 13 Sep 2021 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/intro-r/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://aprendiendo-r-intro.netlify.app/&#34;&gt;https://aprendiendo-r-intro.netlify.app/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bivariate dasymetric map</title>
+      <link>https://www.dadosdelaplace.com/cursos/dominic-roye/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/dominic-roye/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/&#34;&gt;https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Circular barplot with R and ggplot2</title>
+      <link>https://www.dadosdelaplace.com/cursos/radar-chart/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/radar-chart/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html&#34;&gt;https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Climate circles</title>
+      <link>https://www.dadosdelaplace.com/cursos/climate-circles/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/climate-circles/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://dominicroye.github.io/en/2021/climate-circles/&#34;&gt;https://dominicroye.github.io/en/2021/climate-circles/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting started with R</title>
+      <link>https://www.dadosdelaplace.com/cursos/getting-started/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/getting-started/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ourworldindata: an R data package</title>
+      <link>https://www.dadosdelaplace.com/cursos/ourworldindata/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/ourworldindata/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drsimonj.svbtle.com/ourworld-an-r-data-package&#34;&gt;https://drsimonj.svbtle.com/ourworld-an-r-data-package&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paquete `{tidymodels}` para el análisis Machine Learning</title>
+      <link>https://www.dadosdelaplace.com/cursos/tidymodels/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/tidymodels/</guid>
+      <description>&lt;h2 id=&#34;enlace-a-la-documentación-gratuito&#34;&gt;Enlace a la documentación (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidymodels.org/&#34;&gt;https://www.tidymodels.org/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ggplot2: Elegant Graphics for Data Analysis</title>
+      <link>https://www.dadosdelaplace.com/cursos/ggplot2-wickham/</link>
+      <pubDate>Sun, 12 Sep 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/ggplot2-wickham/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://ggplot2-book.org/index.html&#34;&gt;https://ggplot2-book.org/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Swiss direct democracy R-package</title>
+      <link>https://www.dadosdelaplace.com/cursos/datos-electorales-suiza/</link>
+      <pubDate>Sun, 12 Sep 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/datos-electorales-suiza/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://tlorusso.github.io/talks/swissdd/#1&#34;&gt;https://tlorusso.github.io/talks/swissdd/#1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BBC Visual and Data Journalism cookbook for R graphics</title>
+      <link>https://www.dadosdelaplace.com/cursos/bbc-graphs/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/bbc-graphs/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bbc.github.io/rcookbook/&#34;&gt;https://bbc.github.io/rcookbook/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geocomputation with R</title>
+      <link>https://www.dadosdelaplace.com/cursos/geocomputation/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/geocomputation/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://geocompr.robinlovelace.net/index.html&#34;&gt;https://geocompr.robinlovelace.net/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mastering Spark with R</title>
+      <link>https://www.dadosdelaplace.com/cursos/spark/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/spark/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://therinspark.com/&#34;&gt;https://therinspark.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R for Data Science</title>
+      <link>https://www.dadosdelaplace.com/cursos/r-data-science-wickham/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/r-data-science-wickham/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://r4ds.had.co.nz/index.html&#34;&gt;https://r4ds.had.co.nz/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software soccergraphR</title>
+      <link>https://www.dadosdelaplace.com/cursos/soccergraphr/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/soccergraphr/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/goffda/man/goffda-package.html&#34;&gt;https://rdrr.io/cran/goffda/man/goffda-package.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>goffda package: Goodness-of-Fit tests for functional data</title>
+      <link>https://www.dadosdelaplace.com/cursos/goffda/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/goffda/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/goffda/man/goffda-package.html&#34;&gt;https://rdrr.io/cran/goffda/man/goffda-package.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comunidad de R en Telegram</title>
+      <link>https://www.dadosdelaplace.com/cursos/grupo-telegram/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/grupo-telegram/</guid>
+      <description>&lt;h2 id=&#34;grupo-de-telegram&#34;&gt;Grupo de Telegram&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/hispanoverse&#34;&gt;https://t.me/hispanoverse&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>{swirl}: learn R, in R</title>
+      <link>https://www.dadosdelaplace.com/cursos/swirl/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/swirl/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://swirlstats.com/students.html&#34;&gt;https://swirlstats.com/students.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comunidad Discord</title>
+      <link>https://www.dadosdelaplace.com/cursos/discord/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/discord/</guid>
+      <description>&lt;h2 id=&#34;cómo-acceder-al-discord&#34;&gt;¿Cómo acceder al Discord?&lt;/h2&gt;
+&lt;p&gt;Entra en el &lt;strong&gt;Patreon&lt;/strong&gt; para elegir tu nivel de suscripción: &lt;a href=&#34;https://www.patreon.com/dadosdelaplace&#34;&gt;https://www.patreon.com/dadosdelaplace&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contrastes on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/contrastes/</link>
+    <description>Recent content in contrastes on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/contrastes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>goffda package: Goodness-of-Fit tests for functional data</title>
+      <link>https://www.dadosdelaplace.com/cursos/goffda/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/goffda/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/goffda/man/goffda-package.html&#34;&gt;https://rdrr.io/cran/goffda/man/goffda-package.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A goodness-of-fit test for the functional linear model with functional response</title>
+      <link>https://www.dadosdelaplace.com/publication/scandinavian_2021/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/publication/scandinavian_2021/</guid>
+      <description>&lt;h2 id=&#34;paquetessoftware-del-artículo&#34;&gt;Paquetes/software del artículo:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Paquete &lt;code&gt;{goffda}&lt;/code&gt;: &lt;a href=&#34;https://cran.r-project.org/web/packages/goffda/index.html&#34;&gt;https://cran.r-project.org/web/packages/goffda/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ver el resto de producción científica en &lt;a href=&#34;https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;amp;hl=es&#34;&gt;Google Scholar&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

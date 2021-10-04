@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataviz on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/dataviz/</link>
+    <description>Recent content in dataviz on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bivariate dasymetric map</title>
+      <link>https://www.dadosdelaplace.com/cursos/dominic-roye/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/dominic-roye/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/&#34;&gt;https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Circular barplot with R and ggplot2</title>
+      <link>https://www.dadosdelaplace.com/cursos/radar-chart/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/radar-chart/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html&#34;&gt;https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Climate circles</title>
+      <link>https://www.dadosdelaplace.com/cursos/climate-circles/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/climate-circles/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://dominicroye.github.io/en/2021/climate-circles/&#34;&gt;https://dominicroye.github.io/en/2021/climate-circles/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ggplot2: Elegant Graphics for Data Analysis</title>
+      <link>https://www.dadosdelaplace.com/cursos/ggplot2-wickham/</link>
+      <pubDate>Sun, 12 Sep 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/ggplot2-wickham/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://ggplot2-book.org/index.html&#34;&gt;https://ggplot2-book.org/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BBC Visual and Data Journalism cookbook for R graphics</title>
+      <link>https://www.dadosdelaplace.com/cursos/bbc-graphs/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/bbc-graphs/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bbc.github.io/rcookbook/&#34;&gt;https://bbc.github.io/rcookbook/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Descriptiva y exploración de datos</title>
+      <link>https://www.dadosdelaplace.com/docencia/descriptiva-2021-2022/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/docencia/descriptiva-2021-2022/</guid>
+      <description>&lt;p&gt;Material de la asignatura &lt;strong&gt;«Descripción y exploración de datos»&lt;/strong&gt; del grado de Estadística Aplicada de la Universidad Complutense (curso: 2021-2022)&lt;/p&gt;
+&lt;h3 id=&#34;haz-click-para-ver-diapositivas-en-pantalla-completahttpsdescriptiva-estad-apli-ucm-2021-2022netlifyapp&#34;&gt;&lt;a href=&#34;https://descriptiva-estad-apli-ucm-2021-2022.netlify.app/&#34;&gt;Haz click para ver diapositivas en pantalla completa&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;haz-click-para-ver-el-código-de-las-diapositivashttpsgithubcomdadosdelaplacedocencia&#34;&gt;&lt;a href=&#34;https://github.com/dadosdelaplace/docencia&#34;&gt;Haz click para ver el código de las diapositivas&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geocomputation with R</title>
+      <link>https://www.dadosdelaplace.com/cursos/geocomputation/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/geocomputation/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://geocompr.robinlovelace.net/index.html&#34;&gt;https://geocompr.robinlovelace.net/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software soccergraphR</title>
+      <link>https://www.dadosdelaplace.com/cursos/soccergraphr/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/soccergraphr/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/goffda/man/goffda-package.html&#34;&gt;https://rdrr.io/cran/goffda/man/goffda-package.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

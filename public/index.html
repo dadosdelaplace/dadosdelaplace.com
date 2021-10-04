@@ -1,0 +1,4670 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Javier Álvarez Liébana">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Divulgación estadística, matemática y dataviz">
+
+  
+  <link rel="alternate" hreflang="es-ES" href="https://www.dadosdelaplace.com/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#fc6f5c">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500|Lato:400,700&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.204e11ae6782e09c80157333f2a197af.css">
+
+  
+
+  
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Javier Álvarez Liébana">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Javier Álvarez Liébana">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.dadosdelaplace.com/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@dadosdelaplace">
+  <meta property="twitter:creator" content="@dadosdelaplace">
+  
+  <meta property="og:site_name" content="Javier Álvarez Liébana">
+  <meta property="og:url" content="https://www.dadosdelaplace.com/">
+  <meta property="og:title" content="Javier Álvarez Liébana">
+  <meta property="og:description" content="Divulgación estadística, matemática y dataviz"><meta property="og:image" content="https://www.dadosdelaplace.com/img/logo_navegador.png">
+  <meta property="twitter:image" content="https://www.dadosdelaplace.com/img/logo_navegador.png"><meta property="og:locale" content="es-ES">
+  
+  <meta property="og:updated_time" content="2021-09-27T18:30:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Javier Álvarez Liébana</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Buscar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Buscar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Javier Álvarez Liébana</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://cartasdelaplace.substack.com/" target="_blank" rel="noopener"><span>✉️Newsletter</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.patreon.com/dadosdelaplace" target="_blank" rel="noopener"><span>Patreon</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>¿Quién soy?</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#about" data-target="#about"><span>Bio</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#skills" data-target="#skills"><span>Destrezas y defectos</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#experience" data-target="#experience"><span>CV</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#accomplishments" data-target="#accomplishments"><span>Cosicas para presumir</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#publications" data-target="#publications"><span>Artículos científicos</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Entradas</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#cursos" data-target="#cursos"><span>Cursos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#docencia" data-target="#docencia"><span>Material docente</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Medios y eventos</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#talks" data-target="#talks"><span>Eventos</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#medios" data-target="#medios"><span>Aparición en medios</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Redes</span><span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://patreon.com/dadosdelaplace" data-target="https://patreon.com/dadosdelaplace"><span>🚨 Patreon</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://cartasdelaplace.susbtack.com" data-target="https://cartasdelaplace.susbtack.com"><span>🚨 Newsletter</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#contact" data-target="#contact"><span>Contacto</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://twitter.com/dadosdelaplace" data-target="https://twitter.com/dadosdelaplace"><span>Twitter</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://instagram.com/javieralvarezliebana" data-target="https://instagram.com/javieralvarezliebana"><span>Instagram</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://discord.gg/RpXRqTgGdt" data-target="https://discord.gg/RpXRqTgGdt"><span>Discord</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://t.me/dadosdelaplace" data-target="https://t.me/dadosdelaplace"><span>Telegram</span></a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/github.com/dadosdelaplace" data-target="github.com/dadosdelaplace"><span>Github</span></a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-hero   " style="background-color: #fff;" >
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-md-6 order-md-1 text-center text-md-left align-self-center">
+
+
+    
+    <div><h2 id="bienvenidoa">Bienvenido/a.</h2>
+<h2 id="mi-nombre-es-javier-álvarez-liébana-matemático-geodesta-en-realidad-docente-e-intento-de-divulgador-con-el-proyecto-dados-de-laplace">Mi nombre es <strong>Javier Álvarez Liébana</strong>, <strong>matemático</strong> (geodesta en realidad), docente e intento de divulgador con el proyecto <strong>Dados de Laplace</strong>.</h2>
+<p>Divulgación estadística, matemática, visualización de datos y programación en R: deja el Excel en la puerta. Web realizada con <code>{blogdown}</code> enteramente en <code>R</code>.</p>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="mt-4">
+      <a href="https://cartasdelaplace.substack.com" target="_blank" rel="noopener" class="btn btn-primary btn-lg  page-scroll">✉️Cartas de Laplace (newsletter)</a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="https://patreon.com/dadosdelaplace" target="_blank" rel="noopener" class="btn btn-lg btn-outline-primary page-scroll">PATREON</a>
+      
+    </p>
+    
+
+  
+  
+  </div>
+  <div class="col-10 mx-auto col-md-6 order-md-2 hero-media">
+    <img class="hero-img img-fluid" src="/img/banner_portada.webp" alt="">
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="skills" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-12 section-heading">
+    <h1>Destrezas y defectos</h1>
+    <p>HABILIDADES Y TARITAS</p>
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:89%"></div>
+      <div class="featurette-icon"><i class="fas fa-square-root-alt"></i></div>
+      <h3>Matemáticas</h3>
+      <p>89%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:17%"></div>
+      <div class="featurette-icon"><i class="fas fa-user-secret"></i></div>
+      <h3>Outfits</h3>
+      <p>17%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:83%"></div>
+      <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
+      <h3>Estadística</h3>
+      <p>83%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:107%"></div>
+      <div class="featurette-icon"><i class="far fa-grin-squint"></i></div>
+      <h3>Memes</h3>
+      <p>107%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:31%"></div>
+      <div class="featurette-icon"><i class="fas fa-microphone-alt"></i></div>
+      <h3>Comunicación</h3>
+      <p>31%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:73%"></div>
+      <div class="featurette-icon"><i class="fab fa-searchengin"></i></div>
+      <h3>Dataviz</h3>
+      <p>73%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:79%"></div>
+      <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
+      <h3>Programación</h3>
+      <p>79%</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+    <div class="position-relative py-2 shadow featurette-margin">
+      <div class="progress-bar" style="width:7%"></div>
+      <div class="featurette-icon"><i class="fas fa-border-style"></i></div>
+      <h3>Orden y sentido</h3>
+      <p>7%</p>
+    </div>
+  </div>
+  
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
+  itemref="person-email person-address">
+  <div class="col-lg-5">
+    <div id="profile">
+      
+      
+      <img class="img-fluid" src="/img/javi.webp" itemprop="image" alt="Avatar">
+      
+    </div>
+    <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://cartasdelaplace.substack.com" target="_blank" rel="noopener">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://twitter.com/dadosdelaplace" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://instagram.com/javieralvarezliebana" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://patreon.com/dadosdelaplace" target="_blank" rel="noopener">
+          <i class="fab fa-patreon"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://t.me/dadosdelaplace" target="_blank" rel="noopener">
+          <i class="fab fa-telegram"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://scholar.google.es/citations?user=Wb3lxFIAAAAJ&amp;hl=es" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://github.com/dadosdelaplace" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <li class="mx-3">
+        <a itemprop="sameAs" href="https://discord.gg/RpXRqTgGdt" target="_blank" rel="noopener">
+          <i class="fab fa-discord"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  <div class="col-lg-7" itemprop="description">
+
+    <div class="portrait-title">
+      <h2 itemprop="name">Javier Álvarez Liébana</h2>
+      <h3 class="d-inline-block" itemprop="jobTitle">De Carabanchel. Doctor en Estadística,</h3>
+
+      
+      <h3 class="d-inline-block" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        
+          <span itemprop="name">Facultad de Estadística (UCM)</span>
+          
+      </h3>
+      
+    </div>
+
+    <link itemprop="url" href="">
+
+
+
+    <p>Esto de presentarse a sí mismo siempre es un poco raro: <strong>matemático de Carabanchel</strong>, nacido en 1989, que casi llegó a ser <strong>Manolito Gafotas</strong>, y que odia Excel. He pasado por la Universidad Complutense, la <strong>Universidad de Granada (donde hice la tesis)</strong>, Bolonia, Santiago de Compostela, la Universidad Pierre et Marie Curie en París, la Universidad de Oviedo, y ahora he vuelto a mis orígenes.</p>
+<p>Actualmente soy Ayudante Doctor en la <strong>Facultad de Estudios Estadísticos de la Universidad Complutense</strong>. Me verás como Javier Álvarez Liébana o <strong>Dados de Laplace</strong>, el proyecto de <strong>divulgación</strong> para reconciliarte con las <strong>matemáticas y la estadística</strong>, y convencerte de la importancia de la <strong>visualización de datos</strong>.</p>
+<p><strong>¿La idea de esta web?</strong> Un espacio donde concentrar la divulgación que realizo en distintas redes sociales, amén de <strong>tutoriales de programación en R</strong>.</p>
+
+
+    
+    <a href="/docs/CV.pdf" class="btn btn-primary btn-lg"><i class="fas fa-download mr-2" aria-hidden="true"></i>Descargar CV</a>
+    
+
+
+    
+    <div class="row">
+
+      
+      <div class="col-md-7">
+        <h3>Educación</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PCR positiva, 2021</p>
+              <p class="institution">COVID-19</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Ayudante Doctor, 2018</p>
+              <p class="institution">ANECA</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Doctorado en Estadística, 2018</p>
+              <p class="institution">Universidad de Granada</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Máster en Ingeniería Matemática, 2014</p>
+              <p class="institution">Universidad Complutense de Madrid</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Licenciatura de Matemáticas, 2013</p>
+              <p class="institution">Universidad Complutense de Madrid</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-5">
+        <h3>Intereses</h3>
+        <ul class="ul-interests">
+          
+          <li>estadística</li>
+          
+          <li>probabilidad</li>
+          
+          <li>matemáticas</li>
+          
+          <li>sistemas electorales</li>
+          
+          <li>programación</li>
+          
+          <li>dataviz</li>
+          
+          <li>datos funcionales (FDA)</li>
+          
+          <li>bioestadística</li>
+          
+          <li>divulgación</li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="cursos" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+
+    <h1>Cursos de R</h1>
+    <p>Tutoriales para programar en R o de paquetes concretos</p>
+
+  </div>
+  <div class="col-12">
+
+    
+
+      
+
+      
+
+      
+
+      
+      
+      
+      
+      
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              
+              
+              
+              
+              
+              <a href="#" data-filter="*"
+                class="btn btn-primary btn-lg active">Ver todo</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-conceptos-básicos-R"
+                class="btn btn-primary btn-lg">Conceptos básicos</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-comunidad"
+                class="btn btn-primary btn-lg">Comunidad de aprendizaje</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-dataviz"
+                class="btn btn-primary btn-lg">Dataviz</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-mapas"
+                class="btn btn-primary btn-lg">Mapas y datos geográficos</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-elecciones"
+                class="btn btn-primary btn-lg">Datos electorales</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-modelos"
+                class="btn btn-primary btn-lg">Modelos</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-contrastes"
+                class="btn btn-primary btn-lg">Contrastes</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-FDA"
+                class="btn btn-primary btn-lg">FDA</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-clima"
+                class="btn btn-primary btn-lg">Datos climáticos</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-deportes"
+                class="btn btn-primary btn-lg">Análisis deportivo</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-datascience"
+                class="btn btn-primary btn-lg">Datascience y Machine Learning</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-bigdata"
+                class="btn btn-primary btn-lg">Big Data</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      
+
+      <div class="isotope projects-container js-layout-masonry ">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-modelos js-id-datascience js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://michael-franke.github.io/intro-data-analysis/index.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/aida/featured_hu07b0f5f2251d7f0d05ed91b4383cd221_23823_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://michael-franke.github.io/intro-data-analysis/index.html" target="_blank" rel="noopener">An Introduction to Data Analysis</a></h4>
+      <div class="card-desription">
+        <p>Curso de datascience de <strong>Michael Franke</strong> (gratuito, dificultad 4/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-conceptos-básicos-R js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://aprendiendo-r-intro.netlify.app/" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/intro-r/featured_hubf1f3ebd5a3680da20f9183b29692185_27067_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://aprendiendo-r-intro.netlify.app/" target="_blank" rel="noopener">Primeros pasos en R</a></h4>
+      <div class="card-desription">
+        <p>Introducción a la programación en R sin morir en el intento (gratuito y en castellano, dificultad 1/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-dataviz js-id-Programación-en-R js-id-mapas">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/dominic-roye/featured_hueb14f10dea55c23ae904033ab9f36a10_46698_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://dominicroye.github.io/en/2021/bivariate-dasymetric-map/" target="_blank" rel="noopener">Bivariate dasymetric map</a></h4>
+      <div class="card-desription">
+        <p>Tutorial sobre mapas bivariables dasimétricos con <code>{ggplot2}</code> y <code>{raster}</code> de <strong>Dominic Royé</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-dataviz js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/radar-chart/featured_hu0f558b3fe32a6a9d9accc9a8742645e3_23746_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://www.r-graph-gallery.com/web-circular-barplot-with-R-and-ggplot2.html" target="_blank" rel="noopener">Circular barplot with R and ggplot2</a></h4>
+      <div class="card-desription">
+        <p>Gráficos de Nightingale (también conocidos como gráficos de radar) con <code>{ggplot2}</code> de <strong>Tobias Stadler</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-dataviz js-id-Programación-en-R js-id-clima">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://dominicroye.github.io/en/2021/climate-circles/" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/climate-circles/featured_hue09c00dae4a12ecfe3250d2443974be0_60652_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://dominicroye.github.io/en/2021/climate-circles/" target="_blank" rel="noopener">Climate circles</a></h4>
+      <div class="card-desription">
+        <p>Tutorial sobre gráficos climáticos circulares con <code>{raster}</code> de <strong>Dominic Royé</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-conceptos-básicos-R js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://rfortherestofus.com/courses/getting-started/" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/getting-started/featured_hu4738da127014e2ded47be1cded42d3ed_151557_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://rfortherestofus.com/courses/getting-started/" target="_blank" rel="noopener">Getting started with R</a></h4>
+      <div class="card-desription">
+        <p>Curso introductorio disponible en la plataforma <strong>«R for the rest of us»</strong> (gratuito , dificultad 2/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-datascience js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://drsimonj.svbtle.com/ourworld-an-r-data-package" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/ourworldindata/featured_hud39618b2fbaac1d16d1188675cddaf88_55410_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://drsimonj.svbtle.com/ourworld-an-r-data-package" target="_blank" rel="noopener">ourworldindata: an R data package</a></h4>
+      <div class="card-desription">
+        <p>Paquete <code>{ourworldindata}</code> para extraer los datos de la web ourworldindata.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-datascience js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://tlorusso.github.io/talks/swissdd/#1" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/tidymodels/featured_huc495265fb80ec9396976a794712ab5c9_40513_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://tlorusso.github.io/talks/swissdd/#1" target="_blank" rel="noopener">Paquete <code>{tidymodels}</code> para el análisis Machine Learning</a></h4>
+      <div class="card-desription">
+        <p>Paquete para el análisis Machine Learning de <strong>Julia Silge</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-dataviz js-id-datascience js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://ggplot2-book.org/index.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/ggplot2-wickham/featured_hubbd81d8ec957b4d3dcc7de2e135146c4_24962_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://ggplot2-book.org/index.html" target="_blank" rel="noopener">ggplot2: Elegant Graphics for Data Analysis</a></h4>
+      <div class="card-desription">
+        <p>Tutorial sobre visualización de datos de <strong>Hadley Wickham</strong>  (dificultad 5/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-elecciones js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://tlorusso.github.io/talks/swissdd/#1" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/datos-electorales-suiza/featured_huf88810c3104506eddb5530c9b90e3ddf_8543_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://tlorusso.github.io/talks/swissdd/#1" target="_blank" rel="noopener">The Swiss direct democracy R-package</a></h4>
+      <div class="card-desription">
+        <p>Paquete <code>{swissdd}</code> para el análisis electoral en Suiza de <strong>Thomas Lo Russo</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-dataviz js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://bbc.github.io/rcookbook/" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/bbc-graphs/featured_hu02f86213f9d7079294f47124307f002b_89302_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://bbc.github.io/rcookbook/" target="_blank" rel="noopener">BBC Visual and Data Journalism cookbook for R graphics</a></h4>
+      <div class="card-desription">
+        <p>Diseño de gráficos con <code>{ggplot2}</code> y estilo de la BBC creado por el <strong>BBC data team</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-mapas js-id-dataviz js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://geocompr.robinlovelace.net/index.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/geocomputation/featured_hu86cc5c55531df7e6d6e77ec789da2d5e_11394_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://geocompr.robinlovelace.net/index.html" target="_blank" rel="noopener">Geocomputation with R</a></h4>
+      <div class="card-desription">
+        <p>Curso de análisis de datos espaciales de <strong>Robin Lovelace y otros</strong> (dificultad 6/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-datascience js-id-bigdata js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://therinspark.com/" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/spark/featured_hu06de7f25b13316fcfca6a549beac6e9c_17701_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://therinspark.com/" target="_blank" rel="noopener">Mastering Spark with R</a></h4>
+      <div class="card-desription">
+        <p>Tutorial para el uso de Spark en <code>R</code> de <strong>Javier Luraschi y otros</strong> (gratuito, dificultad 7/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-conceptos-básicos-R js-id-datascience js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://r4ds.had.co.nz/index.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/r-data-science-wickham/featured_hub808e7c02efae960f9bd5567215cdb8f_29122_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://r4ds.had.co.nz/index.html" target="_blank" rel="noopener">R for Data Science</a></h4>
+      <div class="card-desription">
+        <p>Tutorial introductorio al análisis de datos en <code>R</code> de <strong>Hadley Wickham</strong> (gratuito, dificultad 3/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-deportes js-id-dataviz js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://github.com/saso008/soccergraphR" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/soccergraphr/featured_hu1f5cc46bb0314d8771b7986cdc53a963_40597_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://github.com/saso008/soccergraphR" target="_blank" rel="noopener">Software soccergraphR</a></h4>
+      <div class="card-desription">
+        <p>Software <code>{soccergraphR}</code> para contrastes de bondad de ajuste en datos funcionales de <strong>Jesús Lagos</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-FDA js-id-contrastes js-id-modelos js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://rdrr.io/cran/goffda/man/goffda-package.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/goffda/featured_hu410d4c8695e5da7e5d08b4a39f1442e5_48060_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://rdrr.io/cran/goffda/man/goffda-package.html" target="_blank" rel="noopener">goffda package: Goodness-of-Fit tests for functional data</a></h4>
+      <div class="card-desription">
+        <p>Paquete <code>{goffda}</code> para contrastes de bondad de ajuste en datos funcionales</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-comunidad js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://t.me/hispanoverse" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/grupo-telegram/featured_hu71273e6e006664cc580fb38eaa7a0210_73753_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://t.me/hispanoverse" target="_blank" rel="noopener">Comunidad de R en Telegram</a></h4>
+      <div class="card-desription">
+        <p>Canal de Telegram de usuarios hispanos de R</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-conceptos-básicos-R js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://swirlstats.com/students.html" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/swirl/featured_hu2f63198cf05352f8a4a7897b56ea58b0_28312_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://swirlstats.com/students.html" target="_blank" rel="noopener">{swirl}: learn R, in R</a></h4>
+      <div class="card-desription">
+        <p>Paquete de R para aprenderlo en la propia consola de forma interactiva (gratuito , dificultad 2/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-comunidad js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://www.patreon.com/dadosdelaplace" target="_blank" rel="noopener" class="card-image">
+      <img src="/cursos/discord/featured_hu411b21268c59d48b94e830d0b99bb798_22806_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://www.patreon.com/dadosdelaplace" target="_blank" rel="noopener">Comunidad Discord</a></h4>
+      <div class="card-desription">
+        <p>Comunidad para el aprendizaje estadístico y la programación en R</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Entradas de divulgación</h1>
+    <p>(matemáticas, estadística, dataviz y programación)</p>
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    
+    
+    
+    <a href="/post/cartas-laplace-1/">
+      <img src="/post/cartas-laplace-1/featured_hub8e61d32ae531a172e224f22bb217d25_62168_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/post/cartas-laplace-1/" itemprop="url">Carta #1: perderlo todo, volver a empezar</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2021-09-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-09-13 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Mon, Sep 13, 2021</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min de lectura
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Carta #1 de la newsletter. ¿Por qué «Cartas de Laplace»? La historia de Sophie Germain y Laplace
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    
+    
+    
+    <a href="/post/r-python/">
+      <img src="/post/r-python/featured_hu8b08fb65760da1ca68da95c41371cbd5_55790_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/post/r-python/" itemprop="url">¿Qué lenguaje elegir? R, Python o Matlab: la batalla final</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2021-09-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-09-12 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Sun, Sep 12, 2021</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min de lectura
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      ¿Qué lenguaje elegir para el análisis de datos?
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    
+    
+    
+    <a href="/post/excel-no/">
+      <img src="/post/excel-no/featured_hudd1df6066a4317a33ac81c0afbafabf2_12678_918x517_fill_q90_lanczos_smart1.jpg" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/post/excel-no/" itemprop="url">¿Por qué Excel no es tu amigo? ¿Por qué aprender R?</a>
+    </h3>
+    
+    
+
+
+
+<meta content="2021-09-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-09-11 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Sat, Sep 11, 2021</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min de lectura
+  </span>
+  
+
+  
+  
+
+  
+  
+
+  
+
+</div>
+
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      La desintoxicación Office es posible: ⛔️ Excel
+    </div>
+    
+
+
+    
+  </div>
+</div>
+      </div>
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="docencia" class="home-section wg-portfolio   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+
+    <h1>Material docente</h1>
+    <p>(material utilizado en clase)</p>
+
+  </div>
+  <div class="col-12">
+
+    
+
+      
+
+      
+
+      
+
+      
+      
+      
+      
+      
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              
+              
+              
+              
+              
+              <a href="#" data-filter="*"
+                class="btn btn-primary btn-lg active">Ver todo</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-descriptiva"
+                class="btn btn-primary btn-lg">Estadística descriptiva</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-Programación-en-R"
+                class="btn btn-primary btn-lg">Programación en R</a>
+              
+              
+              
+              
+              <a href="#" data-filter=".js-id-dataviz"
+                class="btn btn-primary btn-lg">Dataviz</a>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      
+
+      <div class="isotope projects-container js-layout-masonry ">
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Programación-en-R js-id-material-docente js-id-descriptiva js-id-dataviz">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="/docencia/descriptiva-2021-2022/"  class="card-image">
+      <img src="/docencia/descriptiva-2021-2022/featured_huff3310bae3c94011686b727fad8d515a_32654_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="/docencia/descriptiva-2021-2022/" >Descriptiva y exploración de datos</a></h4>
+      <div class="card-desription">
+        <p>Asignatura del grado de estadística aplicada (UCM, 2021-2022)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-conceptos-básicos-R js-id-Programación-en-R">
+  <div class="card rounded-0 shadow-sm">
+    
+    
+    <a href="https://aprendiendo-r-intro.netlify.app/" target="_blank" rel="noopener" class="card-image">
+      <img src="/docencia/intro-r/featured_hubf1f3ebd5a3680da20f9183b29692185_27067_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-body">
+      <h4><a href="https://aprendiendo-r-intro.netlify.app/" target="_blank" rel="noopener">Primeros pasos en R</a></h4>
+      <div class="card-desription">
+        <p>Introducción a la programación en R sin morir en el intento (gratuito y en castellano, dificultad 1/7)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="experience" class="home-section wg-experience   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Experiencia laboral y profesional</h1>
+    <p>(sitios a los que pude engañar)</p>
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Investigador y profesor Ayudante Doctor</h4>
+            <h4 class="card-title exp-company text-muted my-0">Universidad Complutense de Madrid</h4>
+            <div class="text-muted exp-meta">
+              Oct 2021 –
+              
+                Actualmente
+              
+              
+                <span class="middot-divider"></span>
+                <span>Madrid</span>
+              
+            </div>
+            <div class="card-text"><p>Investigador y docente en la Facultad de Estudios Estadísticos de la Universidad Complutense de Madrid. Docencia impartida:</p>
+<ul>
+<li>Curso 2021-2022: descripción y exploración de datos (Grado en Estadística Aplicada) - técnicas y metodología de la minería de datos (Máster en Minería de Datos e Inteligencia de Negocios).</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Analista y asesor</h4>
+            <h4 class="card-title exp-company text-muted my-0">Gobierno del Principado de Asturias (Dirección General de Salud Pública</h4>
+            <div class="text-muted exp-meta">
+              Oct 2020 –
+              
+                Sep 2021
+              
+              
+                <span class="middot-divider"></span>
+                <span>Oviedo</span>
+              
+            </div>
+            <div class="card-text"><p>Analista y asesor en el análisis estadístico de los datos derivados de la pandemia de covid-19. Funciones:</p>
+<ul>
+<li>Análisis estadístico.</li>
+<li>Dataviz en <a href="https://dgspasturias.shinyapps.io/panel_de_indicadores_asturias/">https://dgspasturias.shinyapps.io/panel_de_indicadores_asturias/</a> (implementada con <code>R</code> y <code>Shinyapps</code>).</li>
+<li>Divulgación en redes.</li>
+<li>Participación en el desarrollo del modelo 4+ (modelo de restricciones por concejos).</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Investigador y profesor Ayudante Doctor</h4>
+            <h4 class="card-title exp-company text-muted my-0">Universidad de Oviedo</h4>
+            <div class="text-muted exp-meta">
+              Sep 2020 –
+              
+                Sep 2021
+              
+              
+                <span class="middot-divider"></span>
+                <span>Oviedo</span>
+              
+            </div>
+            <div class="card-text"><p>Investigador y docente en el departamento de Estadística, Investigación Operativa y Didáctica de las matemáticas, de la Universidad de Oviedo. Docencia impartida:</p>
+<ul>
+<li>Curso 2020-2021: estadística (Grado en Ingeniería Química y Grado en Ingeniería Informática del Software).</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Investigador y profesor sustituto interino</h4>
+            <h4 class="card-title exp-company text-muted my-0">Universidad de Oviedo</h4>
+            <div class="text-muted exp-meta">
+              Sep 2018 –
+              
+                Aug 2020
+              
+              
+                <span class="middot-divider"></span>
+                <span>Oviedo</span>
+              
+            </div>
+            <div class="card-text"><p>Investigador y docente en el departamento de Estadística, Investigación Operativa y Didáctica de las matemáticas, de la Universidad de Oviedo. Docencia impartida:</p>
+<ul>
+<li>Curso 2018-2019: estadística (Grado en Ingeniería Química, Grado en Ingeniería Informática del Software y Grado en Ingeniería Electrónica) - programación matemática (Grado en Matemáticas) - epidemiología y bioestadística (Grado en Fisioterapia).</li>
+<li>Curso 2019-2020: estadística (Grado en Ingeniería Química y Grado en Ingeniería Informática del Software) - Modelos lineales generalizados (Máster en Análisis de Datos para la Inteligencia de Negocios).</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Estancia predoctoral</h4>
+            <h4 class="card-title exp-company text-muted my-0">Université Pierre et Marie Curie</h4>
+            <div class="text-muted exp-meta">
+              Sep 2017 –
+              
+                Dec 2017
+              
+              
+                <span class="middot-divider"></span>
+                <span>París (Francia)</span>
+              
+            </div>
+            <div class="card-text">Estancia predoctoral bajo la supervisión de Denis Bosq.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Estancia predoctoral</h4>
+            <h4 class="card-title exp-company text-muted my-0">Université Pierre et Marie Curie</h4>
+            <div class="text-muted exp-meta">
+              Apr 2015 –
+              
+                Jun 2015
+              
+              
+                <span class="middot-divider"></span>
+                <span>París (Francia)</span>
+              
+            </div>
+            <div class="card-text">Estancia predoctoral bajo la supervisión de Denis Bosq.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Contratado predoctoral FPI</h4>
+            <h4 class="card-title exp-company text-muted my-0">Universidad de Granada</h4>
+            <div class="text-muted exp-meta">
+              Sep 2014 –
+              
+                Jul 2018
+              
+              
+                <span class="middot-divider"></span>
+                <span>Granada</span>
+              
+            </div>
+            <div class="card-text">Contratado predoctoral FPI para la realización del doctorado, con la tesis titulada «Inference on linear processes in Hilbert and Banach spaces: statistical analysis of high-dimensional data», supervisada por María Dolores Ruiz Medina. Calificación: Cum Laude y Mención Internacional.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Becario en el departamento de Big Data</h4>
+            <h4 class="card-title exp-company text-muted my-0">Línea Directa</h4>
+            <div class="text-muted exp-meta">
+              Mar 2014 –
+              
+                Aug 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>Madrid</span>
+              
+            </div>
+            <div class="card-text"><p>Becario en el departamento de Big Data. Funciones:</p>
+<ul>
+<li>Migración de SAS a R de los batchs diarios.</li>
+<li>Modelización de modelos de tarificación en un entorno Big Data.</li>
+<li>Programación en Hadoop.</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Analista</h4>
+            <h4 class="card-title exp-company text-muted my-0">ShowLeap</h4>
+            <div class="text-muted exp-meta">
+              Jan 2014 –
+              
+                Aug 2014
+              
+              
+                <span class="middot-divider"></span>
+                <span>Madrid - Gandía</span>
+              
+            </div>
+            <div class="card-text">Analista en la start-up ShowLeap trabajando en el desarrollo de un traductor de Lengua de Signos Española (LSE) a castellano oral.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Beca de colaboración</h4>
+            <h4 class="card-title exp-company text-muted my-0">Universidad Complutense de Madrid</h4>
+            <div class="text-muted exp-meta">
+              Dec 2012 –
+              
+                Jul 2013
+              
+              
+                <span class="middot-divider"></span>
+                <span>Madrid</span>
+              
+            </div>
+            <div class="card-text"><p>Inicio a la investigación con una beca de colaboración en la Sección Departamental de Astronomía y Geodesia de la Universidad Complutense de Madrid. Funciones:</p>
+<ul>
+<li>Programación en Matlab.</li>
+<li>Problemas de modelado de inversión gravimétrica.</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Becario</h4>
+            <h4 class="card-title exp-company text-muted my-0">Everis</h4>
+            <div class="text-muted exp-meta">
+              Sep 2012 –
+              
+                Nov 2012
+              
+              
+                <span class="middot-divider"></span>
+                <span>Madrid</span>
+              
+            </div>
+            <div class="card-text">Becario en el departamento de IT.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Erasmus</h4>
+            <h4 class="card-title exp-company text-muted my-0">Università di Bologna</h4>
+            <div class="text-muted exp-meta">
+              Sep 2011 –
+              
+                Jun 2012
+              
+              
+                <span class="middot-divider"></span>
+                <span>Bologna (Italia)</span>
+              
+            </div>
+            <div class="card-text">Estudiante Erasmus en Bologna (Italia).</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="accomplishments" class="home-section wg-accomplishments   "  >
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+    <h1>Cosas de las que sacar pecho</h1>
+    <p>(algunos logros y premios)</p>
+    
+  </div>
+
+  
+  
+  <div class="col-lg-6 col-md-6 mb-4">
+    <div class="card experience course shadow-sm rounded-0 border-0">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Representante joven SEIO en «21th European Young Stat. Meetings» (Belgrado).</h4><div class="card-subtitle my-0 article-metadata"><a href="http://www.eysm2019.matf.bg.ac.rs/" target="_blank" rel="noopener">SEIO</a><span class="middot-divider"></span>
+
+          Jul 2019
+          
+        </div>
+
+        
+        <div class="card-text">Premiado por SEIO (2019) para representarla en «21th European Young Stat. Meetings» (Belgrado).</div>
+        
+
+        
+        <a class="card-link" href="http://www.eysm2019.matf.bg.ac.rs/" target="_blank" rel="noopener">
+          Ver certificado
+        </a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 mb-4">
+    <div class="card experience course shadow-sm rounded-0 border-0">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Contrato Juan de la Cierva (formación 2018)</h4><div class="card-subtitle my-0 article-metadata"><a href="http://www.aei.gob.es/portal/site/MICINN/menuitem.791459a43fdf738d70fd325001432ea0/?vgnextoid=73d917cd13e77610VgnVCM1000001d04140aRCRD&amp;vgnextchannel=115222e988f75610VgnVCM1000001d04140aRCRD&amp;vgnextfmt=formato2&amp;id3=556c47aeb8bb1710VgnVCM1000001d04140a____" target="_blank" rel="noopener">Ministerio de Ciencia</a><span class="middot-divider"></span>
+
+          Jan 2019
+          
+        </div>
+
+        
+        <div class="card-text">Contrato Juan de la Cierva (formación 2018) ganado en concurso competitivo, junto con el catedrático Wenceslao González Manteiga</div>
+        
+
+        
+        <a class="card-link" href="http://www.aei.gob.es/portal/site/MICINN/menuitem.791459a43fdf738d70fd325001432ea0/?vgnextoid=73d917cd13e77610VgnVCM1000001d04140aRCRD&amp;vgnextchannel=115222e988f75610VgnVCM1000001d04140aRCRD&amp;vgnextfmt=formato2&amp;id3=556c47aeb8bb1710VgnVCM1000001d04140a____" target="_blank" rel="noopener">
+          Ver certificado
+        </a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 mb-4">
+    <div class="card experience course shadow-sm rounded-0 border-0">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Tesis Cum Laude y mención internacional</h4><div class="card-subtitle my-0 article-metadata"><a href="https://dialnet.unirioja.es/servlet/tesis?codigo=150992" target="_blank" rel="noopener">Universidad de Granada</a><span class="middot-divider"></span>
+
+          Jul 2018
+          
+        </div>
+
+        
+        <div class="card-text">Tesis calificada con Cum Laude y Mención Internacional</div>
+        
+
+        
+        <a class="card-link" href="https://dialnet.unirioja.es/servlet/tesis?codigo=150992" target="_blank" rel="noopener">
+          Ver certificado
+        </a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 mb-4">
+    <div class="card experience course shadow-sm rounded-0 border-0">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Regional workshop European Young Researchs» (París).</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.sfds.asso.fr/en/events/629-european_workshop/" target="_blank" rel="noopener">SEIO</a><span class="middot-divider"></span>
+
+          Oct 2017
+          
+        </div>
+
+        
+        <div class="card-text">Premiado por SEIO (2018) para representarla en «Regional workshop European Young Researchs» (París)</div>
+        
+
+        
+        <a class="card-link" href="https://www.sfds.asso.fr/en/events/629-european_workshop/" target="_blank" rel="noopener">
+          Ver certificado
+        </a>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Charlas y eventos</h1>
+    <p>(que parezca que salgo de casa)</p>
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/Event">
+    
+    
+    
+    
+    <a href="/talk/dasci_2021/">
+      <img src="/talk/dasci_2021/featured_huf79a9c85a5a6bcb68d408cd974d8c513_22466_918x517_fill_q90_h2_lanczos_right.webp" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/talk/dasci_2021/" itemprop="url">Ciencia de Datos y COVID19</a>
+    </h3>
+    
+    <div class="article-metadata">
+      
+      <span itemprop="startDate">
+        
+        Mon, Sep 27, 2021
+        
+        18:30
+        
+        &mdash; 19:30
+        
+        
+      </span>
+      
+      <span class="middot-divider"></span>
+      <span itemprop="location">Granada (virtual)</span>
+      
+    </div>
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Charla invitada en el ciclo de conferencias Ada Lovelace organizadas por el DaSCI
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/Event">
+    
+    
+    
+    
+    <a href="/talk/enem_2021/">
+      <img src="/talk/enem_2021/featured_hu57e20a40928dc050cce8d7c5de0966da_9936_918x517_fill_q90_h2_lanczos_right.webp" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/talk/enem_2021/" itemprop="url">Estadística en la guerra, tanto en Pearl Harbour como en el desembarco de Normandía</a>
+    </h3>
+    
+    <div class="article-metadata">
+      
+      <span itemprop="startDate">
+        
+        Mon, Jul 26, 2021
+        
+        00:00
+        
+        &mdash; 00:00
+        
+        
+      </span>
+      
+      <span class="middot-divider"></span>
+      <span itemprop="location">Murcia (virtual)</span>
+      
+    </div>
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Charla invitada en el encuentro nacional de estudiantes de matemáticas
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card-simple" itemscope itemtype="http://schema.org/Event">
+    
+    
+    
+    
+    <a href="/talk/eventex_2020/">
+      <img src="/talk/eventex_2020/featured_hubdf9aa6eecba84cfa7aed1daa8c08272_52590_918x517_fill_q90_h2_lanczos_right.webp" class="article-banner" itemprop="image" alt="">
+    </a>
+    
+
+    <div class="card-body">
+    <h3 class="article-title mb-1 mt-0" itemprop="name">
+      <a href="/talk/eventex_2020/" itemprop="url">Contando taxis, ganando guerras</a>
+    </h3>
+    
+    <div class="article-metadata">
+      
+      <span itemprop="startDate">
+        
+        Sat, Dec 12, 2020
+        
+        00:00
+        
+        &mdash; 00:00
+        
+        
+      </span>
+      
+      <span class="middot-divider"></span>
+      <span itemprop="location">Granada (virtual, Youtube)</span>
+      
+    </div>
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Charla de divulgación invitada
+    </div>
+    
+
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=1N-gM3m9yUI" target="_blank" rel="noopener">
+  Vídeo
+</a>
+
+
+
+
+
+    </div>
+    
+  </div>
+</div>
+      </div>
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+    <h1>Temas tratados</h1>
+    <p>(algunos de ellos, clasificados de aquella manera)</p>
+  </div>
+  <div class="col-12">
+    
+
+    
+    
+    
+
+    <div class="text-center">
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/bigdata/">bigdata</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/bioestadistica/">bioestadística</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/cambio-climatico/">cambio climático</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/clima/">clima</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/comunidad/">comunidad</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/conceptos-basicos-r/">conceptos básicos R</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/contrastes/">contrastes</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/datascience/">datascience</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/dataviz/">dataviz</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/datos-financieros/">datos financieros</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/datos-funcionales-fda/">datos funcionales (FDA)</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/deportes/">deportes</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/descriptiva/">descriptiva</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/elecciones/">elecciones</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/estadistica-bayesiana/">estadística bayesiana</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/fda/">FDA</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/mapas/">mapas</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/material-docente/">material docente</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/medios/">medios</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/modelos/">modelos</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/muestreo-y-remuestreo/">muestreo y remuestreo</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/newsletter/">newsletter</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/probabilidad/">probabilidad</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/programacion-en-r/">Programación en R</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/regresion/">regresión</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/sde/">SDE</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/series-temporales/">series temporales</a>
+      
+      
+      
+      <a class="btn btn-outline-dark btn-lg" href="/tags/tesis/">tesis</a>
+      
+    </div>
+    
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="medios" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Apariciones en medios</h1>
+    <p>(mira mamá, salgo en la tele)</p>
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      
+
+
+
+
+
+
+
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/medios/prensa_escrita/" itemprop="url"><span itemprop="name">Apariciones en prensa escrita 📰</span></a>
+
+  
+
+  
+
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/medios/radio/" itemprop="url"><span itemprop="name">Apariciones en radio 🎙</span></a>
+
+  
+
+  
+
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/medios/tv/" itemprop="url"><span itemprop="name">Apariciones en televisión 📺</span></a>
+
+  
+
+  
+
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/medios/youtube_blogs_otros/" itemprop="url"><span itemprop="name">Apariciones en youtube, blogs y otros 📹🎙📃</span></a>
+
+  
+
+  
+
+  
+
+</div>
+
+      
+      
+
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>Publicaciones recientes</h1>
+    <p>(a veces hago ciencia)</p>
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+      
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/scandinavian_2021/" itemprop="url"><span itemprop="name">A goodness-of-fit test for the functional linear model with functional response</span></a>
+
+  
+
+  
+  <div class="article-metadata" itemprop="author">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/eduardo-garcia-portugues/">Eduardo García Portugués</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gonzalo-alvarez-perez/">Gonzalo Álvarez Pérez</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/wenceslao-gonzalez-manteiga/">Wenceslao Gonzalez Manteiga</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1111/sjos.12486" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/serra_2019/" itemprop="url"><span itemprop="name">Prediction of air pollutants PM10 by ARBX(1) processes</span></a>
+
+  
+
+  
+  <div class="article-metadata" itemprop="author">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/maria-dolores-ruiz-medina/">María Dolores Ruiz Medina</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1007/s00477-019-01712-z" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/sp_19/" itemprop="url"><span itemprop="name">A note on strong-consistency of componentwise ARH(1) predictors</span></a>
+
+  
+
+  
+  <div class="article-metadata" itemprop="author">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/maria-dolores-ruiz-medina/">María Dolores Ruiz Medina</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1016/j.spl.2018.09.004" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/tesis/" itemprop="url"><span itemprop="name">Tesis «Inference on linear processes in Hilbert and Banach spaces, statistical analysis of high-dimensional data»</span></a>
+
+  
+
+  
+  <div class="article-metadata" itemprop="author">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/maria-dolores-ruiz-medina/">María Dolores Ruiz Medina</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://digibug.ugr.es/handle/10481/52557" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+<div class="view-list-item col-lg-8 mx-auto" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  <a href="/publication/stats_interface/" itemprop="url"><span itemprop="name">Asymptotic properties of a component-wise ARH (1) plug-in predictor</span></a>
+
+  
+
+  
+  <div class="article-metadata" itemprop="author">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Javier Álvarez Liébana</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/maria-dolores-ruiz-medina/">María Dolores Ruiz Medina</a></span>
+
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/0004/SII-2017-0010-0004-a007" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+      
+
+      
+      <div class="see-all">
+        <a href="/publication/">
+          Más publicaciones
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 text-center section-heading">
+    <h1>Contacto</h1>
+    
+  </div>
+  <div class="col-12">
+    
+  </div>
+  <div class="col-md-6">
+    
+
+  </div>
+  <div class="col-md-6">
+    <ul class="fa-ul" itemscope>
+      
+      <li>
+        <i class="fa-li fas fa-envelope mt-2" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email"><a
+            href="mailto:javi.alvarez.liebana@gmail.com">javi.alvarez.liebana@gmail.com</a></span>
+      </li>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-map-marker-alt mt-2" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">Facultad de Estudios Estadísticos (UCM)</span>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+  </div>
+  <div class="col-12">
+    
+  </div>
+</div>
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Buscar...",
+        'results': "resultados encontrados",
+        'no_results': "No se encontraron resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Proyectos",
+        'publication' : "Publicaciones",
+        'talk' : "Charlas"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academia.min.1864145399ae9e7997bb63a7a7dd152c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="powered-by">
+          <a href="/privacy/">POLÍTICA DE PRIVACIDAD</a>
+        </p>
+        
+        <p class="mb-0">
+          Copyright © 2021 - Javier Álvarez Liébana (Dados de Laplace) &middot; 
+          Powered by
+          <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://instagram.com/javieralvarezliebana" target="_blank" rel="noopener" title="Sígueme en Twitter"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/dadosdelaplace" target="_blank" rel="noopener" title="Sígueme en Instagram"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://patreon.com/dadosdelaplace" target="_blank" rel="noopener" title="Contribuye al proyecto en Patreon"><i class="fab fa-patreon" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://cartasdelaplace.substack.com" target="_blank" rel="noopener" title="Newsletter"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://t.me/dadosdelaplace" target="_blank" rel="noopener" title="Canal de Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/dadosdelaplace" target="_blank" rel="noopener" title="Repositorio de Github"><i class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://discord.gg/RpXRqTgGdt" target="_blank" rel="noopener" title="Comunidad de Discord"><i class="fab fa-discord" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Descargar
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

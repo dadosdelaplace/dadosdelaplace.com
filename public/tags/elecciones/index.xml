@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elecciones on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/elecciones/</link>
+    <description>Recent content in elecciones on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Sun, 12 Sep 2021 12:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/elecciones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Swiss direct democracy R-package</title>
+      <link>https://www.dadosdelaplace.com/cursos/datos-electorales-suiza/</link>
+      <pubDate>Sun, 12 Sep 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/datos-electorales-suiza/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://tlorusso.github.io/talks/swissdd/#1&#34;&gt;https://tlorusso.github.io/talks/swissdd/#1&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

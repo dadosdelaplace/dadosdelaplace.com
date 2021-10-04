@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/authors/</link>
+    <description>Recent content in Authors on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.dadosdelaplace.com/authors/admin/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/authors/admin/</guid>
+      <description>&lt;p&gt;Esto de presentarse a sí mismo siempre es un poco raro: &lt;strong&gt;matemático de Carabanchel&lt;/strong&gt;, nacido en 1989, que casi llegó a ser &lt;strong&gt;Manolito Gafotas&lt;/strong&gt;, y que odia Excel. He pasado por la Universidad Complutense, la &lt;strong&gt;Universidad de Granada (donde hice la tesis)&lt;/strong&gt;, Bolonia, Santiago de Compostela, la Universidad Pierre et Marie Curie en París, la Universidad de Oviedo, y ahora he vuelto a mis orígenes.&lt;/p&gt;
+&lt;p&gt;Actualmente soy Ayudante Doctor en la &lt;strong&gt;Facultad de Estudios Estadísticos de la Universidad Complutense&lt;/strong&gt;. Me verás como Javier Álvarez Liébana o &lt;strong&gt;Dados de Laplace&lt;/strong&gt;, el proyecto de &lt;strong&gt;divulgación&lt;/strong&gt; para reconciliarte con las &lt;strong&gt;matemáticas y la estadística&lt;/strong&gt;, y convencerte de la importancia de la &lt;strong&gt;visualización de datos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;¿La idea de esta web?&lt;/strong&gt; Un espacio donde concentrar la divulgación que realizo en distintas redes sociales, amén de &lt;strong&gt;tutoriales de programación en R&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eduardo García Portugués</title>
+      <link>https://www.dadosdelaplace.com/authors/eduardo-garcia-portugues/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/authors/eduardo-garcia-portugues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gonzalo Álvarez Pérez</title>
+      <link>https://www.dadosdelaplace.com/authors/gonzalo-alvarez-perez/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/authors/gonzalo-alvarez-perez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wenceslao Gonzalez Manteiga</title>
+      <link>https://www.dadosdelaplace.com/authors/wenceslao-gonzalez-manteiga/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/authors/wenceslao-gonzalez-manteiga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>María Dolores Ruiz Medina</title>
+      <link>https://www.dadosdelaplace.com/authors/maria-dolores-ruiz-medina/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/authors/maria-dolores-ruiz-medina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Denis Bosq</title>
+      <link>https://www.dadosdelaplace.com/authors/denis-bosq/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/authors/denis-bosq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

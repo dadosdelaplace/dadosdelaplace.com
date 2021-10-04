@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datascience on Javier Álvarez Liébana</title>
+    <link>https://www.dadosdelaplace.com/tags/datascience/</link>
+    <description>Recent content in datascience on Javier Álvarez Liébana</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>es-ES</language>
+    <copyright>Copyright &amp;copy; {year} - Javier Álvarez Liébana (Dados de Laplace)</copyright>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://www.dadosdelaplace.com/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Introduction to Data Analysis</title>
+      <link>https://www.dadosdelaplace.com/cursos/aida/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/aida/</guid>
+      <description>&lt;h2 id=&#34;enlace-a-la-documentación-gratuito&#34;&gt;Enlace a la documentación (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://michael-franke.github.io/intro-data-analysis/index.html&#34;&gt;https://michael-franke.github.io/intro-data-analysis/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ourworldindata: an R data package</title>
+      <link>https://www.dadosdelaplace.com/cursos/ourworldindata/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/ourworldindata/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-paquete&#34;&gt;Enlace al paquete&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://drsimonj.svbtle.com/ourworld-an-r-data-package&#34;&gt;https://drsimonj.svbtle.com/ourworld-an-r-data-package&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Paquete `{tidymodels}` para el análisis Machine Learning</title>
+      <link>https://www.dadosdelaplace.com/cursos/tidymodels/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/tidymodels/</guid>
+      <description>&lt;h2 id=&#34;enlace-a-la-documentación-gratuito&#34;&gt;Enlace a la documentación (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidymodels.org/&#34;&gt;https://www.tidymodels.org/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ggplot2: Elegant Graphics for Data Analysis</title>
+      <link>https://www.dadosdelaplace.com/cursos/ggplot2-wickham/</link>
+      <pubDate>Sun, 12 Sep 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/ggplot2-wickham/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-tutorial-gratuito&#34;&gt;Enlace al tutorial (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://ggplot2-book.org/index.html&#34;&gt;https://ggplot2-book.org/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mastering Spark with R</title>
+      <link>https://www.dadosdelaplace.com/cursos/spark/</link>
+      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/spark/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://therinspark.com/&#34;&gt;https://therinspark.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R for Data Science</title>
+      <link>https://www.dadosdelaplace.com/cursos/r-data-science-wickham/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dadosdelaplace.com/cursos/r-data-science-wickham/</guid>
+      <description>&lt;h2 id=&#34;enlace-al-curso-gratuito&#34;&gt;Enlace al curso (gratuito)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://r4ds.had.co.nz/index.html&#34;&gt;https://r4ds.had.co.nz/index.html&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
